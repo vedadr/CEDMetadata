@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="379369f5-d83c-4f01-ae1c-9f37d5e03df9" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="CED" DisplayName="CED" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2011" CountryName="" DocLinksAsString="" Categories="CED;Population;">
+  <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
+  <Description><![CDATA[]]></Description>
+  <Notes><![CDATA[]]></Notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <Documentation Label="Documentation">
+    <DocumentLinks />
+  </Documentation>
+  <geoTypes>
+    <geoType MapDisplayScale="" GUID="a4e6e5db-5c6d-4931-8d5f-ed0fed3791aa" SearchPriorityCode="" Name="SL010" Label="Nation" QLabel="Nation" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Nation" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="NATION" FipsCodePartialLength="0" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="f9b34b0a-1153-4e4b-be73-2b2160d95046" SearchPriorityCode="" Name="SL040" Label="Province" QLabel="Province" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Province" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="1" Sumlev="040" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="PROVINCE" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="2b5fa4ad-7532-4421-a13a-233a05c0a752" SearchPriorityCode="" Name="SL050" Label="Municipality" QLabel="Municipality" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Municipality" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="2" Sumlev="050" FipsCodeLength="5" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="MUNICIPALITY" FipsCodePartialLength="3" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="47da237a-a43d-4546-baad-808147ed0ff6" SearchPriorityCode="" Name="SL140" Label="Census Tract" QLabel="Census Tract" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Census Tract" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="3" Sumlev="140" FipsCodeLength="10" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CT" FipsCodePartialLength="5" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="53e249b9-a3e5-4d3d-b76c-1de3754573ae" SearchPriorityCode="" Name="SL200" Label="Region" QLabel="Region" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Region" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="1" Sumlev="200" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="REGION" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="c7509ed8-f8e1-4e22-b1b8-decd85424422" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="Geo" source="" publisher="" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo />
+    <notes />
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets>
+      <dataset GUID="563fe13f-08af-4b38-a239-f1a42f1fb260" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL010_001" IsCached="false" DbTableNamePrefix="CED_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="d5a7506a-665e-4dc0-803b-21aab2855294" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL040_001" IsCached="false" DbTableNamePrefix="CED_SL040_" DbPrimaryKey="SL010_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="c8f72be3-6a60-4a30-abd2-d3cf21e47222" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL050_001" IsCached="false" DbTableNamePrefix="CED_SL050_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="d51db1a0-f673-4e53-a979-68b23371b280" GeoTypeName="SL140" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL140_001" IsCached="false" DbTableNamePrefix="CED_SL140_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS,SL140_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="bc2a2ff3-a969-4747-8f3b-1f980b6ed41d" GeoTypeName="SL200" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL200_001" IsCached="false" DbTableNamePrefix="CED_SL200_" DbPrimaryKey="SL010_FIPS,SL200_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+    </datasets>
+    <iterations />
+    <tables>
+      <table GUID="5c7431e7-feb2-4fd4-8e8b-ffc26fe0c122" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <mVisibleInMaps>true</mVisibleInMaps>
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns />
+        </OutputFormat>
+        <variable GUID="f8c60ebe-cc05-4657-999b-9236fc9f1025" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="QNAME" label="Qualifying Name" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="e6eab73b-52d0-4340-ad01-0c6c422282fb" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NAME" label="Name of Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="f2361b98-ebff-4c6e-9583-848d786583d1" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FIPS" label="FIPS" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="8dbf1e84-e112-4aa3-bcbd-9f3d78534974" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NATION" label="Nation" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="35a65026-07d8-48e8-8c39-2e166eedc7ca" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PROVINCE" label="Province" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="66b691b4-068c-4c22-9b63-f9393d507170" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="MUNICIPALITY" label="Municipality" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="e179a01f-fa2e-4142-adf9-8831797a2886" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CT" label="Census Tract" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="f30031bd-a946-4944-9cdb-9c0584dd6550" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="REGION" label="Region" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="8cc07b4d-e1a6-417d-add1-e41e4bff8276" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="SE" source="" publisher="" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
+      <DataBibliographicInfo />
+      <notes />
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="9714ec16-d8ee-4437-8a78-971990f193ee" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL010_001" IsCached="false" DbTableNamePrefix="CED_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="001128ae-1776-4887-a300-246f141cce88" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL040_001" IsCached="false" DbTableNamePrefix="CED_SL040_" DbPrimaryKey="SL010_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="c3404fee-0265-4830-b409-b164d8f23140" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL050_001" IsCached="false" DbTableNamePrefix="CED_SL050_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="e06264be-8cfa-46d2-b48b-8d600724218b" GeoTypeName="SL140" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL140_001" IsCached="false" DbTableNamePrefix="CED_SL140_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS,SL140_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="cb5ee9f7-67d5-4ff1-b51a-b8fdbde00471" GeoTypeName="SL200" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL200_001" IsCached="false" DbTableNamePrefix="CED_SL200_" DbPrimaryKey="SL010_FIPS,SL200_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      </datasets>
+      <iterations />
+      <tables />
+    </SurveyDataset>
+    <SurveyDataset GUID="b7919109-6ecd-43ea-a04e-f19a4eaeb3cc" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="true" abbreviation="ORG" source="" publisher="" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo />
+      <notes />
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="86b50d70-6110-45df-94d8-6c6e6be28a8e" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL010_001" IsCached="false" DbTableNamePrefix="CED_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="f0168968-f3e4-42f4-8a7f-c664896a9711" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL040_001" IsCached="false" DbTableNamePrefix="CED_SL040_" DbPrimaryKey="SL010_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="658db219-11f5-4910-9c21-d873f356925e" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL050_001" IsCached="false" DbTableNamePrefix="CED_SL050_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="3ff6e159-a70c-4025-ad0d-0ffc16ef590d" GeoTypeName="SL140" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL140_001" IsCached="false" DbTableNamePrefix="CED_SL140_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS,SL140_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="8d5cfc13-b828-4a9c-b6ba-29446c9f81a1" GeoTypeName="SL200" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED" GeoIdDbTableName="CED_SL200_001" IsCached="false" DbTableNamePrefix="CED_SL200_" DbPrimaryKey="SL010_FIPS,SL200_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      </datasets>
+      <iterations />
+      <tables>
+        <table GUID="3a109a0b-94fc-40ca-b7aa-515fc325b84e" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="CED_001" displayName="CED_001" title="Demographic data" titleWrapped="Demographic data" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Population;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="CED_001" source="" DefaultColumnCaption="" samplingInfo="">
+          <mVisibleInMaps>true</mVisibleInMaps>
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns />
+          </OutputFormat>
+          <variable GUID="98c198ab-06f8-451d-aca8-74e58d213584" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CED_001_CED_P_T" label="Total Population" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="2" />
+          <variable GUID="9af50826-e57a-4bab-a1cd-d98b7ca5a305" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CED_001_CED_P_65" label="Population Aged 65 or More" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="b4b1a289-17cc-49eb-8152-29c5946b68dc" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CED_001_CED_P_FB" label="Foreign-born Population" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="b47ab9d0-b815-4d37-a147-eee48be91660" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CED_001_CED_P_P_65" label="Proportion of Population Aged 65 or More Over the Total Population (expressed as a percentage)" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="4" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="9f3ea6cf-700a-4418-80be-b4ee06edbba4" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CED_001_CED_P_P_FB" label="Proportion of Foreign-born Population Over the Total Population (expressed as a percentage)" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="4" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>CED</string>
+    <string>Population</string>
+  </Categories>
+</survey>
