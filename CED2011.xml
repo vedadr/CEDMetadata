@@ -50,7 +50,7 @@
     </tables>
   </GeoSurveyDataset>
   <SurveyDatasets>
-    <SurveyDataset GUID="881234af-c28a-4c4a-8d81-aa37dadf13b2" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="false" description="" ProductTags="" Visible="true" abbreviation="SE" source="" publisher="" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
+    <SurveyDataset GUID="881234af-c28a-4c4a-8d81-aa37dadf13b2" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="true" abbreviation="SE" source="" publisher="" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
       <DataBibliographicInfo />
       <notes />
       <PrivateNotes><![CDATA[]]></PrivateNotes>
@@ -59,7 +59,7 @@
         <dataset GUID="d101d038-1f42-4d39-b84f-663ab29d36b6" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED2011" GeoIdDbTableName="CED2011_SL010_001" IsCached="false" DbTableNamePrefix="CED2011_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
         <dataset GUID="b6f504bf-999b-48b9-9aac-0b885b104378" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED2011" GeoIdDbTableName="CED2011_SL040_001" IsCached="false" DbTableNamePrefix="CED2011_SL040_" DbPrimaryKey="SL010_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
         <dataset GUID="a66ab1bb-face-4df9-afb9-9571a5ceb801" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED2011" GeoIdDbTableName="CED2011_SL050_001" IsCached="false" DbTableNamePrefix="CED2011_SL050_" DbPrimaryKey="SL010_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
-        <dataset GUID="b089d0a8-1e73-41e1-88be-0ffd33576702" GeoTypeName="SL200" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED2011" GeoIdDbTableName="CED2011_SL200_001" IsCached="false" DbTableNamePrefix="CED2011_SL200_" DbPrimaryKey="SL010_FIPS,SL200_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="b089d0a8-1e73-41e1-88be-0ffd33576702" GeoTypeName="SL200" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="CED2011" GeoIdDbTableName="CED2011_SL200_001" IsCached="false" DbTableNamePrefix="CED2011_SL200_" DbPrimaryKey="SL010_FIPS,SL200_FIPS" DbCopyCount="1" Notes="" UnavailableTables="T011,T012," />
       </datasets>
       <iterations />
       <tables>
@@ -153,7 +153,7 @@
           </OutputFormat>
           <variable GUID="5f2ddff4-0133-4773-81e4-aa9d4e52212a" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T011_001: Población Ecuador" label="Población Ecuador" qLabel="" indent="0" dataType="1" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
         </table>
-        <table GUID="b6eb6343-7d4a-44ed-8d24-266c88926eeb" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="0" name="T012" displayName="T012" title="Población por nacionalidad" titleWrapped="" titleShort="" universe="" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="" uniqueTableId="T012" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="b6eb6343-7d4a-44ed-8d24-266c88926eeb" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="0" name="T012" displayName="T012" title="Población por nacionalidad" titleWrapped="" titleShort="" universe="" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="Native/Foreign Born;" ProductTags="" FilterRuleName="Foreign_Spain" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="" uniqueTableId="T012" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
