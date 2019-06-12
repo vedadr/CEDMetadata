@@ -35,7 +35,7 @@
     </tables>
   </GeoSurveyDataset>
   <SurveyDatasets>
-    <SurveyDataset GUID="d5982e3e-4a79-4128-a776-18f00e2b08b9" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="false" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="false" description="" ProductTags="" Visible="true" abbreviation="SE" source="" publisher="" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
+    <SurveyDataset GUID="d5982e3e-4a79-4128-a776-18f00e2b08b9" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="false" description="" ProductTags="" Visible="true" abbreviation="SE" source="" publisher="" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
       <DataBibliographicInfo />
       <notes />
       <PrivateNotes><![CDATA[]]></PrivateNotes>
@@ -45,7 +45,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="ac6841c2-de1a-4118-8b99-0586258c319b" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="0" name="T001" displayName="T001" title="Población" titleWrapped="" titleShort="" universe="" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="Population;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="" uniqueTableId="T001" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="ac6841c2-de1a-4118-8b99-0586258c319b" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="0" name="T001" displayName="T001" title="Población Total VEDAD" titleWrapped="" titleShort="" universe="" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Population;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="" uniqueTableId="T001" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
