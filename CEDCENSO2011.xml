@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="5b0d2d72-8bcd-480d-a59e-f7791b6184da" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="false" GeoCorrespondenceTreeNodeExpanded="false" name="CEDCENSO2011" DisplayName="CEDCENSO2011" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2011" CountryName="" DocLinksAsString="" Categories="Population;Age;Native/Foreign Born;">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="5b0d2d72-8bcd-480d-a59e-f7791b6184da" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="false" GeoCorrespondenceTreeNodeExpanded="false" name="CEDCENSO2011" DisplayName="CEDCENSO2011" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2011" CountryName="" DocLinksAsString="" Categories="Population;Age;Native/Foreign Born;Viviendas">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
