@@ -6,21 +6,11 @@ v2.4
 from lxml import etree as et
 from lxml.builder import ElementMaker
 import uuid
-import pymssql
-import csv
-import os
-import yaml
-import sys
-import collections  # used for dictionary sorting
-import datetime  # used for validation
-import optparse
-from sys import argv
 
 
-def get_geotype():  # number of geo types
+def get_geotype():
     """
     Get list of geotypes in project
-    :param geo_level_info: List from config file
     :return:
     """
     e = ElementMaker()
@@ -30,23 +20,22 @@ def get_geotype():  # number of geo types
 
     result = []
 
-    for sumlev in [['Nation', 'Nation', '2', '2', '0'],['Province', 'Province', '4', '2', '1']]:
+    for sumlev in geo_list:
         result.append(e.geoType(e.Visible('true'),
                                 GUID=str(uuid.uuid4()),
                                 Name=sumlev[0],
                                 Label=sumlev[1],
                                 QLabel=sumlev[1],
-                                RelevantGeoIDs='FIPS,NAME,QName,',
+                                RelevantGeoIDs='FIPS,NAME,QName',
                                 PluralName=plural_forms[sumlev[1]],
                                 fullCoverage='true',
                                 majorGeo='true',
-                                # GeoAbrev = sumlev[0],#'us, nation', COMMENTED BECAUSE IN ACS 2011 EXAMPLE IT WAS
-                                # MISSING!?
+                                GeoAbrev='',
                                 Indent=str(int(sumlev[4])),
                                 Sumlev=sumlev[0].replace('SL', ''),
                                 FipsCodeLength=sumlev[2],
                                 FipsCodeFieldName='FIPS',
-                                FipsCodePartialFieldName=sumlev[0],
+                                FipsCodePartialFieldName=sumlev[1],
                                 FipsCodePartialLength=str(sumlev[3]))
                       )
     return result
@@ -55,15 +44,12 @@ def get_geotype():  # number of geo types
 def get_variables():
     """
     Get variables for original tables
-    :param variables: List of variables
-    :param variable_description: List of variable descriptions
-    :param meta_table_name: Table name for metadata file, extracted from data file name
     :return:
     """
     result = []
     e = ElementMaker()
 
-    variables = [['Total Population', '0'], ['Male', '1'], ['Female', '1']]
+    variables = [['T001_001', 'Total Population', '0'], ['T001_002', 'Male', '1'], ['T001_003', 'Female', '1']]
 
     for v in variables:
         result.append(e.variable(  # repeated for as many times as there are variables
@@ -77,13 +63,12 @@ def get_variables():
             notes='',
             PrivateNotes='',
             name=v[0],  # meta_variable_name
-            label=v[0],  # find variable description in dictionary, by text after pr. id and
-            #  order
+            label=v[1],  # find variable description in dictionary, by text after pr. id and order
             qLabel='',
-            indent=v[1],
-            dataType='2',
+            indent=v[2],
+            dataType='5',  # formatting: when 2 it is int64
             dataTypeLength='0',  # default to zero
-            formatting='2',
+            formatting='9',  # set to 1,234
             customFormatStr='',  # only for SE tables
             FormulaFunctionBodyCSharp='',  # only for SE tables
             suppType='0',
@@ -100,46 +85,40 @@ def get_variables():
 def get_tables():
     """
     Get list of original tables from db
-    :param server: Server name
-    :param dbname: Database name
-    :param variable_description: List to decode variable names into descriptions (from variable_descriptions file)
-    :param user: Username for server
-    :param password: Password for server
-    :param project_year: Project year
     :return: list with constructed tables tags
     """
 
-    E = ElementMaker()
+    e = ElementMaker()
     result = []
+    se_tables = [['T001', 'Total Population']]
 
-    for t in ['Total Population']:
+    for t in se_tables:
         result.append(
-            E.tables(
-                E.table(
-                    E.OutputFormat(
-                        E.Columns(
+            e.tables(
+                e.table(
+                    e.OutputFormat(
+                        e.Columns(
 
                         ),
                         TableTitle="",
                         TableUniverse=""
                     ),
-                    *get_variables()
-                    ,
+                    *get_variables(),
                     GUID=str(uuid.uuid4()),
                     VariablesAreExclusive='false',
                     DollarYear='0',
                     PercentBaseMin='1',
-                    name=t,
-                    displayName=t,
-                    title=t,
-                    titleWrapped=t,
+                    name=t[0],
+                    displayName=t[0],
+                    title=t[1],
+                    titleWrapped=t[1],
                     universe='none',
                     Visible='true',
                     TreeNodeCollapsed='true',
                     CategoryPriorityOrder='0',
                     ShowOnFirstPageOfCategoryListing='false',
-                    DbTableSuffix=t,
-                    uniqueTableId=t
+                    DbTableSuffix=t[0],  # None when SE Tables
+                    uniqueTableId=t[0]
                 )
             )
         )
@@ -150,13 +129,13 @@ def get_tables():
 def get_geo_id_variables():
     """
     Get variables (geography identifiers) from "Geography Summary File"
-    :param geoLevelInfo: List from config file
     :return:
     """
     result = []
-    E = ElementMaker()
-    for i in [['Nation', 'Nation', '2'],['Province', 'Province', '2']]:
-        result.append(E.variable(
+    e = ElementMaker()
+
+    for i in geo_list:
+        result.append(e.variable(
             GUID=str(uuid.uuid4()),
             UVID='',
             BracketSourceVarGUID='',
@@ -170,7 +149,7 @@ def get_geo_id_variables():
             label=i[1],
             qLabel='',
             indent='0',
-            dataType=i[2],
+            dataType='2',
             dataTypeLength='0',
             formatting='0',
             customFormatStr='',
@@ -189,7 +168,6 @@ def get_geo_id_variables():
 def get_geo_id_tables():
     """
     Get table "Geography Identifiers" for "Geography Summary File"
-    :param geo_level_info: List from config file
     :return:
     """
     # get_nesting_information = geo_level_info
@@ -260,7 +238,8 @@ def create_metadata_xml():
             e.Description(et.CDATA('')
                           ),
             e.datasets(
-                #  *get_datasets(connection_string, dbname, geo_level_info, project_id, user, password, server, trusted_connection)
+                #  *get_datasets(connection_string, dbname, geo_level_info,
+                #  project_id, user, password, server, trusted_connection)
             ),
             e.iterations(
 
@@ -292,7 +271,8 @@ def create_metadata_xml():
                     et.CDATA('')
                 ),
                 e.datasets(
-                    #  *get_datasets(connection_string, dbname, geo_level_info, project_id, user, password, server, trusted_connection)
+                    #  *get_datasets(connection_string, dbname, geo_level_info,
+                    #  project_id, user, password, server, trusted_connection)
                 ),
                 e.iterations(
 
@@ -325,7 +305,8 @@ def create_metadata_xml():
                     et.CDATA('')
                 ),
                 e.datasets(
-                    #  *get_datasets(connection_string, dbname, geo_level_info, project_id, user, password, server, trusted_connection)
+                    #  *get_datasets(connection_string, dbname, geo_level_info,
+                    #  project_id, user, password, server, trusted_connection)
                 ),
                 e.iterations(
 
@@ -345,7 +326,7 @@ def create_metadata_xml():
         ),
         e.Categories(
             e.string(
-                'CED' #  project_name
+                'CED'  # project_name
             )
         ),
         GUID=str(uuid.uuid4()),
@@ -358,10 +339,11 @@ def create_metadata_xml():
         Categories=''
     )
     tree = et.ElementTree(page)
-    tree.write('generate_xml_python_example.xml')
+    tree.write('generate_xml_python_example.xml', pretty_print=True)
     print("Writing to: 'generate_xml_python_example.xml'")
     print("Everything finished successfully!!!")
 
 
 if __name__ == '__main__':
+    geo_list = [['SL010', 'Nation', '2', '2', '0'], ['SL040', 'Province', '4', '2', '1']]
     create_metadata_xml()
