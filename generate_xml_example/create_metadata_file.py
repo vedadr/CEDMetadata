@@ -20,7 +20,7 @@ def get_geotype():
 
     result = []
 
-    for sumlev in geo_list:
+    for sumlev in [['SL010', 'Nation', '2', '2', '0'], ['SL040', 'Province', '4', '2', '1']]:
         result.append(e.geoType(e.Visible('true'),
                                 GUID=str(uuid.uuid4()),
                                 Name=sumlev[0],
@@ -90,9 +90,8 @@ def get_tables():
 
     e = ElementMaker()
     result = []
-    se_tables = [['T001', 'Total Population']]
 
-    for t in se_tables:
+    for t in [['T001', 'Total Population']]:
         result.append(
             e.tables(
                 e.table(
@@ -134,7 +133,7 @@ def get_geo_id_variables():
     result = []
     e = ElementMaker()
 
-    for i in geo_list:
+    for i in [['SL010', 'Nation', '2', '2', '0'], ['SL040', 'Province', '4', '2', '1']]:
         result.append(e.variable(
             GUID=str(uuid.uuid4()),
             UVID='',
@@ -345,5 +344,4 @@ def create_metadata_xml():
 
 
 if __name__ == '__main__':
-    geo_list = [['SL010', 'Nation', '2', '2', '0'], ['SL040', 'Province', '4', '2', '1']]
     create_metadata_xml()
