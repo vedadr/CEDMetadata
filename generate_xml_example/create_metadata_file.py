@@ -26,7 +26,7 @@ def get_geotype():
                                 Name=sumlev[0],
                                 Label=sumlev[1],
                                 QLabel=sumlev[1],
-                                RelevantGeoIDs='FIPS,NAME,QName',
+                                RelevantGeoIDs='FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION',
                                 PluralName=plural_forms[sumlev[1]],
                                 fullCoverage='true',
                                 majorGeo='true',
