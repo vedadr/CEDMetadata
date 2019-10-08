@@ -158,7 +158,7 @@ def copy_to_new_xml():
     new_xml_se_vars_by_table = get_new_xml()
     new_xml_se_vars_by_table[0].extend(se_vars_by_table)
 
-    new_tree.write('D:/Projects/CEDMetadata/CED2001_copy.xml')
+    new_tree.write(new_xml_file_name)
 
 
 if __name__ == "__main__":
