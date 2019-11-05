@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CDocSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Visible="true" Indent="-1" TitleCss="" GUID="11538555-7adb-485e-9218-af2f3d81da3e" Title="Padr&amp;oacute;n Continuo">
+  <DocInfo>
+    <Publisher />
+    <Citation />
+  </DocInfo>
+  <Text><![CDATA[Padr&oacute;n Cont&iacute;nuo: Cifras oficiales de la poblaci&oacute;n de los municipios espa&ntilde;oles
+
+<html><head><link rel="stylesheet" type="text/css" href="style.css" /></head><body>
+
+
+<p>Instituto nacional de estad&iacute;stica: <a href=http://www.ine.es>www.ine.es</a href></p>
+
+
+<p>Documentaci&oacute;n sobre el Padr&oacute;n</p>
+
+<!–– descripci&oacute;n de la fuente. Cada p&aacute;rrafo con ha de separarse por marcadores de p&aacute;rrafo ––>
+
+<p>
+El Padr&oacute;n Municipal es un registro administrativo donde constan los vecinos del municipio. Su formaci&oacute;n, mantenimiento, revisi&oacute;n y custodia corresponde a los respectivos Ayuntamientos, quienes deben remitir al INE las variaciones mensuales que se producen en los datos de sus padrones municipales.
+</p><p>
+La Estad&iacute;stica del Padr&oacute;n continuo se elabora a partir de la explotaci&oacute;n exhaustiva de las variables b&aacute;sicas que contienen los ficheros padronales disponibles en el INE. Se ofrecen los datos de la poblaci&oacute;n residente en Espa&ntilde;a a 1 de enero de cada a&ntilde;o, seg&uacute;n lugar de residencia, sexo, edad, nacionalidad y lugar de nacimiento. Los datos de lugar de residencia se facilitan para distintos niveles de desagregaci&oacute;n territorial: nacional, comunidades aut&oacute;nomas, provincias, municipios y secciones censales.
+</p>
+<br>
+ACCESOS WEB INE
+<br>
+<ul>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/categoria.htm?c=Estadistica_P&cid=1254734710990>Padr&oacute;n. Poblaci&oacute;n por municipios</a href></li>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=ultiDatos&idp=1254734710990>Estad&iacute;stica del Padr&oacute;n Continuo</a href></li>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=resultados&idp=1254734710990>Resultados</a href></li>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=metodologia&idp=1254734710990>Metodolog&iacute;a</a href></li>
+<li>Documentos metodol&oacute;gicos, cuestionarios y clasificaciones
+<ul>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=metodologia&idp=1254734710990>&iquest;Qu&eacute; es el Padr&oacute;n municipal?</a href></li>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=metodologia&idp=1254734710990>&iquest;C&oacute;mo se obtienen las Cifras oficiales de poblaci&oacute;n?. Revisi&oacute;n anual del Padr&oacute;n municipal</a href></li>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=metodologia&idp=1254734710990>Estad&iacute;stica del Padr&oacute;n Continuo</a href></li>
+<li><a href=http://www.ine.es/daco/daco43/epoba/cifras.pdf>C&oacute;mo deben interpretarse las cifras de poblaci&oacute;n</a href></li>
+<li><a href=http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990>Relaci&oacute;n de municipios y sus c&oacute;digos por provincias</a href></li></li>
+</ul></ul>
+
+
+</body></html>
+]]></Text>
+  <DocSections />
+</CDocSection>
