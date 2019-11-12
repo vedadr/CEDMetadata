@@ -6,7 +6,8 @@
   <PrivateNotes><![CDATA[]]></PrivateNotes>
   <Documentation Label="Documentation">
     <DocumentLinks>
-      <DocumentLink>doc_pc.xml</DocumentLink>
+      <DocumentLink />
+      <DocumentLink>Docs_new_test_doc.xml</DocumentLink>
     </DocumentLinks>
   </Documentation>
   <geoTypes>
