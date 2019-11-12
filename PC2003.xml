@@ -5,7 +5,9 @@
   <Notes><![CDATA[]]></Notes>
   <PrivateNotes><![CDATA[]]></PrivateNotes>
   <Documentation Label="Documentation">
-    <DocumentLinks />
+    <DocumentLinks>
+      <DocumentLink>doc_pc.xml</DocumentLink>
+    </DocumentLinks>
   </Documentation>
   <geoTypes>
     <geoType MapDisplayScale="" GUID="9a344b45-c528-4834-980d-8a821aba1741" SearchPriorityCode="" Name="SL010" Label="NATION" QLabel="NATION" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,CCAA,PROVINCIA,MUNICIPIO" PluralName="NATION" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="NATION" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
