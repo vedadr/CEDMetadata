@@ -6,6 +6,8 @@
   <PrivateNotes><![CDATA[]]></PrivateNotes>
   <Documentation Label="Documentation">
     <DocumentLinks>
+      <DocumentLink />
+      <DocumentLink />
       <DocumentLink>doc_pc.xml</DocumentLink>
     </DocumentLinks>
   </Documentation>
