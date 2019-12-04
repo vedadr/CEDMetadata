@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="faeb6640-4420-4203-8882-31c0bdcead55" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="Elecciones2011" DisplayName="Elecciones 2011" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2011" CountryName="" DocLinksAsString="" Categories="Elecciones 2011;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="faeb6640-4420-4203-8882-31c0bdcead55" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2011" DisplayName="Elecciones 2011" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2011" CountryName="" DocLinksAsString="" Categories="Elecciones 2011;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -84,7 +84,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="c22b85d5-9e9d-4f71-8140-bf0d25cf1ec5" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="Elecciones2011_002" displayName="Elecciones2011_002" title="Elecciones al Congreso de los Diputados. 20 Noviembre 2011" titleWrapped="Elecciones al Congreso de los Diputados. 20 Noviembre 2011" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="Elecciones2011_002" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="c22b85d5-9e9d-4f71-8140-bf0d25cf1ec5" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="Elecciones2011_002" displayName="Elecciones2011_002" title="Elecciones al Congreso de los Diputados. 20 Noviembre 2011" titleWrapped="Elecciones al Congreso de los Diputados. 20 Noviembre 2011" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="Elecciones2011_002" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />

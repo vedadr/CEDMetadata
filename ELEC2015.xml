@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="94b4a550-b809-43a2-8b1c-640d3a41f28f" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="Elecciones2015" DisplayName="Elecciones 2015" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2015" CountryName="" DocLinksAsString="" Categories="Elecciones 2015;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="94b4a550-b809-43a2-8b1c-640d3a41f28f" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2015" DisplayName="Elecciones 2015" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2015" CountryName="" DocLinksAsString="" Categories="Elecciones 2015;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -84,7 +84,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="a33eab88-8f4a-4f22-99a0-dc2b2334522e" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="Elecciones2015_002" displayName="Elecciones2015_002" title="Elecciones al Congreso de los Diputados. 20 Diciembre 2015" titleWrapped="Elecciones al Congreso de los Diputados. 20 Diciembre 2015" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="Elecciones2015_002" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="a33eab88-8f4a-4f22-99a0-dc2b2334522e" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="Elecciones2015_002" displayName="Elecciones2015_002" title="Elecciones al Congreso de los Diputados. 20 Diciembre 2015" titleWrapped="Elecciones al Congreso de los Diputados. 20 Diciembre 2015" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="Elecciones2015_002" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
