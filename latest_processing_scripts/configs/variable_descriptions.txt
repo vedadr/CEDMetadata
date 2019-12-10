@@ -1,0 +1,44 @@
+﻿CED_V63,Total,0
+CED_V64,Total españoles nacidos en España,1
+CED_V65,Hombres españoles nacidos en España,2
+CED_V66,Mujeres españolas nacidas en España,2
+CED_V67,Total españoles nacidos en el extranjero,1
+CED_V68,Hombres españoles nacidos en el extranjero,2
+CED_V69,Mujeres españolas nacidas en el extranjero,2
+CED_V70,Total extranjeros nacidos en España,1
+CED_V71,Hombres extranjeros nacidos en España,2
+CED_V72,Mujeres extranjeras nacidas en España,2
+CED_V73,Total extranjeros nacidos en el extranjero,1
+CED_V74,Hombres extranjeros nacidos en el extranjero,2
+CED_V75,Mujeres extranjeras nacidas en el extranjero,2
+CED_V76,Total de nacidos en el extranjero,0
+CED_V77,Total nacidos en la Unión Europea,1
+CED_V78,Hombres nacidos en la Unión Europea,2
+CED_V79,Mujeres nacidas en la Unión Europea,2
+CED_V80,Total nacidos en el Resto de Europa,1
+CED_V81,Hombres nacidos en el Resto de Europa,2
+CED_V82,Mujeres nacidas en el Resto de Europa,2
+CED_V83,Total nacidos en el Norte de África,1
+CED_V84,Hombres nacidos en el Norte de África,2
+CED_V85,Mujeres nacidas en el Norte de África,2
+CED_V86,Total nacidos en el Resto de África,1
+CED_V87,Hombres nacidos en el Resto de África,2
+CED_V88,Mujeres nacidas en el Resto de África,2
+CED_V89,Total nacidos en Latinoamérica,1
+CED_V90,Hombres nacidos en Latinoamérica,2
+CED_V91,Mujeres nacidas en Latinoamérica,2
+CED_V92,Total nacidos en el Resto de América,1
+CED_V93,Hombres nacidos en el Resto de América,2
+CED_V94,Mujeres nacidas en el Resto de América,2
+CED_V95,Total nacidos en el Sur de Asia,1
+CED_V96,Hombres nacidos en el Sur de Asia,2
+CED_V97,Mujeres nacidas en el Sur de Asia,2
+CED_V98,Total nacidos en el Este de Asia,1
+CED_V99,Hombres nacidos en el Este de Asia,2
+CED_V100,Mujeres nacidas en el Este de Asia,2
+CED_V101,Total nacidos en el Resto de Asia,1
+CED_V102,Hombres nacidos en el Resto de Asia,2
+CED_V103,Mujeres nacidas en el Resto de Asia,2
+CED_V104,Total nacidos en el Resto del Mundo,1
+CED_V105,Hombres nacidos en el Resto del Mundo,2
+CED_V106,Mujeres nacidas en el Resto del Mundo,2
