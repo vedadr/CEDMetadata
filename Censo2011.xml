@@ -24,7 +24,7 @@
       <Visible>true</Visible>
     </geoType>
   </geoTypes>
-  <GeoSurveyDataset GUID="4ad52c7a-5d71-438d-88df-bd52b8162686" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="Geo" source="" publisher="" name="Geography Summary File" DisplayName="Geography Summary File">
+  <GeoSurveyDataset GUID="4ad52c7a-5d71-438d-88df-bd52b8162686" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="PUB" Visible="false" abbreviation="Geo" source="" publisher="" name="Geography Summary File" DisplayName="Geography Summary File">
     <DataBibliographicInfo />
     <notes />
     <PrivateNotes><![CDATA[]]></PrivateNotes>
@@ -55,7 +55,7 @@
     </tables>
   </GeoSurveyDataset>
   <SurveyDatasets>
-    <SurveyDataset GUID="2022ec21-74d2-4415-bc32-3d7345fc9c01" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="SE" source="" publisher="" name="CED Tables" DisplayName="CED Tables">
+    <SurveyDataset GUID="2022ec21-74d2-4415-bc32-3d7345fc9c01" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="PUB" Visible="false" abbreviation="SE" source="" publisher="" name="CED Tables" DisplayName="CED Tables">
       <DataBibliographicInfo />
       <notes />
       <PrivateNotes><![CDATA[]]></PrivateNotes>
@@ -70,7 +70,7 @@
       <iterations />
       <tables />
     </SurveyDataset>
-    <SurveyDataset GUID="0c2e7a1a-2c30-450f-b7d9-74288aefd227" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="true" abbreviation="ORG" source="" publisher="" name="Original Tables" DisplayName="Original Tables">
+    <SurveyDataset GUID="0c2e7a1a-2c30-450f-b7d9-74288aefd227" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="PUB" Visible="true" abbreviation="ORG" source="" publisher="" name="Original Tables" DisplayName="Original Tables">
       <DataBibliographicInfo />
       <notes />
       <PrivateNotes><![CDATA[]]></PrivateNotes>
