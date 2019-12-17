@@ -21,7 +21,7 @@
       <Visible>true</Visible>
     </geoType>
     <geoType MapDisplayScale="" GUID="9fa5d906-567e-4499-9412-ca4aa2279104" SearchPriorityCode="" Name="SL060" Label="SECCIONES" QLabel="SECCIONES" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO,SECCIONES" PluralName="SECCIONES" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="4" Sumlev="060" FipsCodeLength="16" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="SECCIONES" FipsCodePartialLength="5" Notes="" DocSectionLinks="">
-      <Visible>true</Visible>
+      <Visible>false</Visible>
     </geoType>
   </geoTypes>
   <GeoSurveyDataset GUID="fc8de700-529d-40bd-8c05-fcfac2cfe358" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="Geo" source="" publisher="" name="Geography Summary File" DisplayName="Geography Summary File">
