@@ -18,7 +18,7 @@ def replace_chars(doc, chars_to_replace):
 
 
 def main():
-    project_list = {'PC2018.xml'}
+    project_list = {'PC2018.xml', 'PC2017.xml'}
 
     path = r'C:\Projects\CEDMetadata'
     chars_to_replace = {'Ã³': 'ó', 'Ã¡': 'á', 'Ã±': 'ñ', 'Ãº': 'ú', 'Ã©': 'é'}
