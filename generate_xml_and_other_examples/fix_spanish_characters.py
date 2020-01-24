@@ -1,5 +1,5 @@
 import os
-
+from pathlib import Path
 from lxml import etree as et
 
 
@@ -18,19 +18,26 @@ def replace_chars(doc, chars_to_replace):
 
 
 def main():
+    # set this to true if you want to fix characters in all projects
+    fix_all_projects = False
+
     project_list = {'PC2018.xml', 'PC2017.xml'}
 
-    path = r'C:\Projects\CEDMetadata'
+    path = Path(r'C:\Projects\CEDMetadata')
+
+    if fix_all_projects:
+        project_list = [project.name for project in path.iterdir() if project.name.endswith('.xml')]
+
     chars_to_replace = {'Ã³': 'ó', 'Ã¡': 'á', 'Ã±': 'ñ', 'Ãº': 'ú', 'Ã©': 'é'}
 
     for project in project_list:
-        file = os.path.join(path, project)
+        file = path / project
         parser = et.XMLParser(strip_cdata=False)
-        doc = et.parse(file, parser=parser)
+        doc = et.parse(str(file), parser=parser)
 
         replace_chars(doc, chars_to_replace)
 
-        doc.write(file, pretty_print=True)
+        doc.write(str(file), pretty_print=True)
 
 
 if __name__ == '__main__':
