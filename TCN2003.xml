@@ -1,0 +1,93 @@
+<survey GUID="bf2470fd-d5be-4064-9f43-e7831d416a82" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="TCN2003" DisplayName="Crecimiento 2002-2004" year="2003" Categories="">
+  <Description><![CDATA[]]></Description>
+  <notes><![CDATA[]]></notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <documentation Label="Documentation">
+    <documentlinks/>
+  </documentation>
+  <geoTypes>
+    <geoType GUID="37b1bdb4-a48d-46ef-a5bb-da352ea15dd7" Name="SL010" Label="TOTAL" QLabel="TOTAL" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="TOTAL" fullCoverage="true" majorGeo="true" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="TOTAL" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="dd32d419-055b-4533-bc16-8900749852d6" Name="SL030" Label="CCAA" QLabel="CCAA" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="CCAA" fullCoverage="true" majorGeo="true" Indent="1" Sumlev="030" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CCAA" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="21441a0f-b15b-4405-8763-2e28f52bea17" Name="SL040" Label="PROVINCIA" QLabel="PROVINCIA" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="PROVINCIA" fullCoverage="true" majorGeo="true" Indent="2" Sumlev="040" FipsCodeLength="6" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="PROVINCIA" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="44ce19f1-a7e9-416a-be03-d9327693ef64" Name="SL050" Label="MUNICIPIO" QLabel="MUNICIPIO" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="MUNICIPIO" fullCoverage="true" majorGeo="true" Indent="3" Sumlev="050" FipsCodeLength="11" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="MUNICIPIO" FipsCodePartialLength="5">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="c58343c1-cdc5-4a18-8b73-99beb68c5b67" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="Geographic Summary Count" Visible="false" abbreviation="Geo" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo/>
+    <notes/>
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets>
+      <dataset GUID="423eea89-e05f-4209-bb2a-b8e1c74bb50f" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL010_001" IsCached="false" DbTableNamePrefix="TCN2003_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+      <dataset GUID="ad24c7aa-8b04-4857-8abd-55855f69f8ae" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL030_001" IsCached="false" DbTableNamePrefix="TCN2003_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+      <dataset GUID="9d05d3c1-44c2-43d1-ae95-aaf6c476aa80" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL040_001" IsCached="false" DbTableNamePrefix="TCN2003_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+      <dataset GUID="f1fcaa3c-efef-4652-9cde-bb464f1278e7" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL050_001" IsCached="false" DbTableNamePrefix="TCN2003_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1"/>
+    </datasets>
+    <iterations/>
+    <tables>
+      <table GUID="8ace2e6a-ef49-4f7e-8665-e524aba0ec5f" VariablesAreExclusive="false" notes="" PrivateNotes="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns/>
+        </OutputFormat>
+        <variable GUID="fc596981-057f-4f47-8f83-82f4a711885a" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="QNAME" label="Qualifying Name" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="3724e49b-009a-439a-a9f0-2455836dca39" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NAME" label="Name of Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="9e109aa5-a66c-42ab-92a7-0c7bc8798073" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FIPS" label="FIPS" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="d5dae86c-27a9-41ae-81a9-1b15a0b85b14" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TOTAL" label="TOTAL" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="eb0c7ce8-975f-4a97-a3a2-8e00a4f2957f" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CCAA" label="CCAA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="93c85ab8-8db0-49a4-a9f8-add7e2340feb" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PROVINCIA" label="PROVINCIA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="0303e476-2dce-4a4e-b74e-ce9567480961" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="MUNICIPIO" label="MUNICIPIO" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="613ca6c2-bdc8-4551-ad83-cfbde8a17d29" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="false" abbreviation="SE" name="CED Tables" DisplayName="CED Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="d30eba63-d3b9-4ffc-9cb9-f29d68603fac" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL010_001" IsCached="false" DbTableNamePrefix="TCN2003_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+        <dataset GUID="8d24cfd0-dda5-40e3-84d2-3c9b77f99f7b" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL030_001" IsCached="false" DbTableNamePrefix="TCN2003_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+        <dataset GUID="3b67360f-ca76-49db-bb00-40d1ae57a341" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL040_001" IsCached="false" DbTableNamePrefix="TCN2003_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+        <dataset GUID="48756f46-9d90-4dc3-8630-948ac042515c" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL050_001" IsCached="false" DbTableNamePrefix="TCN2003_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1"/>
+      </datasets>
+      <iterations/>
+      <tables>
+        <!--Insert SE tables here !!!-->
+      </tables>
+    </SurveyDataset>
+    <SurveyDataset GUID="acd3561c-f0a9-45d0-9fd1-5b9520d7cfe6" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="true" abbreviation="ORG" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="435430d9-29ed-4db9-abee-d7a2888b4d71" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL010_001" IsCached="false" DbTableNamePrefix="TCN2003_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+        <dataset GUID="0eaef205-2baf-4482-a3d8-7c566ee4e4aa" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL030_001" IsCached="false" DbTableNamePrefix="TCN2003_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+        <dataset GUID="32e58a6f-2ab5-4613-86dd-7ab491c671d4" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL040_001" IsCached="false" DbTableNamePrefix="TCN2003_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+        <dataset GUID="3ddbce88-5ad5-463c-b643-0cc122c1a4e6" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="TCN2003" GeoIdDbTableName="TCN2003_SL050_001" IsCached="false" DbTableNamePrefix="TCN2003_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1"/>
+      </datasets>
+      <iterations/>
+      <tables>
+        <table GUID="72f230c2-3044-4956-805a-c54f949a2f71" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="TCN2003_001" displayName="TCN2003_001" title="Tasas de crecimiento natural" titleWrapped="Tasas de crecimiento natural" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="TCN2003_001">
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns/>
+          </OutputFormat>
+          <variable GUID="85493226-fe2c-4fb6-a5c5-e1abb4cc5e94" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TCN2003_001_TCN_V1" label="Tasas de crecimiento natural" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="4588175b-32d2-45c1-8faf-511bf8d03405" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TCN2003_001_TCN_V2" label="Tasa bruta de natalidad por 1000 habitantes" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="d7eb6d75-0858-4b45-aa06-5e282c34ee62" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TCN2003_001_TCN_V3" label="Tasa de crecimiento natural por 1000 habitantes" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>Crecimiento 2002-2004</string>
+  </Categories>
+</survey>

@@ -1,0 +1,120 @@
+<survey GUID="efd842af-ea13-4fe0-9bbc-8dc272614bc5" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="NOMEN2000" DisplayName="NOMEN 2000" year="2000" Categories="">
+  <Description><![CDATA[]]></Description>
+  <notes><![CDATA[]]></notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <documentation Label="Documentation">
+    <documentlinks/>
+  </documentation>
+  <geoTypes>
+    <geoType GUID="8ee7d01c-d236-402d-8e05-2be4560b8aab" Name="SL010" Label="TOTAL" QLabel="TOTAL" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO,SECCIONES" PluralName="TOTAL" fullCoverage="true" majorGeo="true" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="TOTAL" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="4e292c2a-d266-4b0e-85c8-1e5ac10763ec" Name="SL030" Label="CCAA" QLabel="CCAA" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO,SECCIONES" PluralName="CCAA" fullCoverage="true" majorGeo="true" Indent="1" Sumlev="030" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CCAA" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="1bc3563c-0ff2-44ae-88fc-c334fcec42f3" Name="SL040" Label="PROVINCIA" QLabel="PROVINCIA" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO,SECCIONES" PluralName="PROVINCIA" fullCoverage="true" majorGeo="true" Indent="2" Sumlev="040" FipsCodeLength="6" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="PROVINCIA" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="45024566-38d2-4e28-9358-42279d942eed" Name="SL050" Label="MUNICIPIO" QLabel="MUNICIPIO" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO,SECCIONES" PluralName="MUNICIPIO" fullCoverage="true" majorGeo="true" Indent="3" Sumlev="050" FipsCodeLength="11" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="MUNICIPIO" FipsCodePartialLength="5">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="d1a66b51-65d8-4dfb-9f46-f13dbd3ad194" Name="SL060" Label="SECCIONES" QLabel="SECCIONES" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO,SECCIONES" PluralName="SECCIONES" fullCoverage="true" majorGeo="true" Indent="4" Sumlev="060" FipsCodeLength="16" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="SECCIONES" FipsCodePartialLength="5">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="70c1c92f-d987-49a0-826c-8334944184bb" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="Geographic Summary Count" Visible="false" abbreviation="Geo" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo/>
+    <notes/>
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets>
+      <dataset GUID="1f39d6e2-e7f5-48c5-8da4-eb0a7c8024d4" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL010_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+      <dataset GUID="9b65431c-54b9-496e-bc54-7719351c1df5" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL030_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+      <dataset GUID="cd0fb43a-b686-4f48-b95f-73806f599610" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL040_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+      <dataset GUID="25c794bc-1e42-4842-bc12-36bd9383f08b" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL050_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1"/>
+      <dataset GUID="09c9ae6b-7179-4848-aa7d-7a5bf7973e9d" GeoTypeName="SL060" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL060_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL060_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS,SL060_FIPS" DbCopyCount="1"/>
+    </datasets>
+    <iterations/>
+    <tables>
+      <table GUID="aa65e6a5-4a56-4ada-b3b0-68ce376dd692" VariablesAreExclusive="false" notes="" PrivateNotes="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns/>
+        </OutputFormat>
+        <variable GUID="1e06d750-8395-42cb-9ae2-e001a8dcb341" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="QNAME" label="Qualifying Name" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="723c2e08-b6fa-4a3c-81e0-dc79ede1c5b7" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NAME" label="Name of Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="ed68c0cc-214f-48a1-8df0-7651f1ea34cd" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FIPS" label="FIPS" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="4063ddfb-9bc7-40c5-8c44-c6343206bfbb" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TOTAL" label="TOTAL" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="e802933f-92c7-48de-bbc3-0dd875f27f90" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CCAA" label="CCAA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="69840a76-245b-4090-b4a5-4329528f59cc" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PROVINCIA" label="PROVINCIA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="cf0c9d79-e537-4938-a43a-d1b4bfdc0b9a" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="MUNICIPIO" label="MUNICIPIO" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="5f4dae88-8f75-445f-b8cd-6f625f9a91ee" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SECCIONES" label="SECCIONES" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="d602d91e-41a0-4152-9102-9ce29dc116d8" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="false" abbreviation="SE" name="CED Tables" DisplayName="CED Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="0db13b28-4eda-4d62-9bf9-e3b2fe43edde" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL010_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+        <dataset GUID="9ad17173-b380-4a10-92cb-2ac1b2226e86" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL030_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+        <dataset GUID="22da304a-36f0-4f8d-a3a1-10d85dd0e08b" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL040_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+        <dataset GUID="e00b05ed-f44b-48db-871e-01897b8203a8" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL050_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1"/>
+        <dataset GUID="28482ec7-3066-4724-97a4-fb6ca8f84b00" GeoTypeName="SL060" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL060_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL060_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS,SL060_FIPS" DbCopyCount="1"/>
+      </datasets>
+      <iterations/>
+      <tables>
+        <!--Insert SE tables here !!!-->
+      </tables>
+    </SurveyDataset>
+    <SurveyDataset GUID="ffb7826a-b645-4d03-a9a7-7651672bc5d8" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="true" abbreviation="ORG" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="44144dbf-3c32-478c-84a1-37496b97a94e" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL010_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+        <dataset GUID="f70d45b0-2bbd-4a6a-8d44-a63c98704b67" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL030_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+        <dataset GUID="faa1f09c-5431-414d-a2b8-caee3a5a1840" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL040_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+        <dataset GUID="e7d31535-264d-4aab-952b-33c5b325ad71" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL050_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1"/>
+        <dataset GUID="70d5b05a-5e03-46dc-a1d4-a3a93afd46e4" GeoTypeName="SL060" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="NOMEN2000" GeoIdDbTableName="NOMEN2000_SL060_001" IsCached="false" DbTableNamePrefix="NOMEN2000_SL060_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS,SL060_FIPS" DbCopyCount="1"/>
+      </datasets>
+      <iterations/>
+      <tables>
+        <table GUID="0691da2f-d7aa-43b5-99a1-4f2ef57d0a4e" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2000_001" displayName="NOMEN2000_001" title="Poblaci&#243;n total seg&#250;n tipo de poblamiento" titleWrapped="Poblaci&#243;n total seg&#250;n tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="NOMEN2000_001">
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns/>
+          </OutputFormat>
+          <variable GUID="cd70d52a-3b88-4a7c-8694-1f7dfa758a3c" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_001_Nomen_V1" label="Poblaci&#243;n total" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="24cd3ce0-53d2-40b4-a0ac-fd84caf651f8" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_001_Nomen_V2" label="Poblaci&#243;n total en n&#250;cleo" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="b45f314c-173a-4d85-a7a2-ddd374cfe54a" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_001_Nomen_V3" label="Poblaci&#243;n total en diseminado" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+        </table>
+      </tables>
+      <tables>
+        <table GUID="1d8c2216-6c09-469a-a776-187d8f9f1ba3" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2000_002" displayName="NOMEN2000_002" title="Poblaci&#243;n masculina seg&#250;n tipo de poblamiento" titleWrapped="Poblaci&#243;n masculina seg&#250;n tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="NOMEN2000_002">
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns/>
+          </OutputFormat>
+          <variable GUID="c0aa6587-c1c4-48da-aea2-99e9f10cced9" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_002_Nomen_V4" label="Poblaci&#243;n masculina" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="11ecfe9e-239c-4d7b-b660-ad9d730a5668" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_002_Nomen_V5" label="Poblaci&#243;n masculina en n&#250;cleo" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="af559e54-35df-4ea8-adf2-cd0cb1b353b7" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_002_Nomen_V6" label="Poblaci&#243;n masculina en diseminado" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+        </table>
+      </tables>
+      <tables>
+        <table GUID="7511cb46-d3f7-4f90-b7aa-39d126e54cb5" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2000_003" displayName="NOMEN2000_003" title="Poblaci&#243;n femina seg&#250;n tipo de poblamiento" titleWrapped="Poblaci&#243;n femina seg&#250;n tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="NOMEN2000_003">
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns/>
+          </OutputFormat>
+          <variable GUID="0de8193e-1df0-4329-8eff-0fd87d324042" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_003_Nomen_V7" label="Poblaci&#243;n femenina" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="45ab3270-dc1d-4910-bc1a-7899dc74f4f5" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_003_Nomen_V8" label="Poblaci&#243;n femenina en n&#250;cleo" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="4baba78c-79e9-4a6f-abca-28955b3b71a8" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2000_003_Nomen_V9" label="Poblaci&#243;n femenina en diseminado" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>NOMEN 2000</string>
+  </Categories>
+</survey>
