@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="2e7b10c5-3a64-4520-9d22-ba8db150041b" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="false" GeoCorrespondenceTreeNodeExpanded="false" name="SAFMR2016" DisplayName="Small Area Fair Market Rent 2016" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2016" CountryName="" DocLinksAsString="" Categories="Small Area Fair Market Rent 2016;">
+  <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
+  <Description><![CDATA[]]></Description>
+  <Notes><![CDATA[]]></Notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <Documentation Label="Documentation">
+    <DocumentLinks />
+  </Documentation>
+  <geoTypes>
+    <geoType MapDisplayScale="" GUID="b5e3e7a8-ccbc-4597-b04c-6125502ca872" SearchPriorityCode="" Name="SL010" Label="Nation" QLabel="Nation" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,MSA,ZC" PluralName="Nation" fullCoverage="false" majorGeo="false" GeoAbrev="" Indent="0" Sumlev="010" FipsCodeLength="0" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="NATION" FipsCodePartialLength="0" Notes="" DocSectionLinks="">
+      <Visible>false</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="b4890bb3-97ff-4469-b27b-016e1fea5ae7" SearchPriorityCode="" Name="SL320" Label="Metropolitan Statistical Area" QLabel="Metropolitan Statistical Area" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,MSA,ZC" PluralName="Metropolitan Statistical Area" fullCoverage="false" majorGeo="false" GeoAbrev="" Indent="1" Sumlev="320" FipsCodeLength="5" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="MSA" FipsCodePartialLength="5" Notes="" DocSectionLinks="">
+      <Visible>false</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="387a3339-e0b6-4868-85ba-14768fd6f7ef" SearchPriorityCode="" Name="SL865" Label="Zip Code" QLabel="Zip Code" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,NATION,MSA,ZC" PluralName="Zip Code" fullCoverage="false" majorGeo="true" GeoAbrev="" Indent="2" Sumlev="865" FipsCodeLength="10" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="ZC" FipsCodePartialLength="5" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="c4716b6d-32c1-41c8-af7e-234f39b9cade" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="false" TablesTreeNodeExpanded="false" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="false" description="" ProductTags="" Visible="false" abbreviation="Geo" source="" publisher="" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo />
+    <notes />
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets>
+      <dataset GUID="e897cec0-5967-4a59-af6b-343fc9b17e1b" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL010_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="f69df1ff-9bfa-454e-bb2c-ec2774e3a2e3" GeoTypeName="SL320" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL320_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL320_" DbPrimaryKey="SL320_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="ea7b9739-0790-4d6f-ab25-d4eb0103fa11" GeoTypeName="SL865" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL865_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL865_" DbPrimaryKey="SL320_FIPS,SL865_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+    </datasets>
+    <iterations />
+    <tables>
+      <table GUID="24c6dc37-271b-44d2-89a6-d9cc9f9cb692" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <mVisibleInMaps>true</mVisibleInMaps>
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns />
+        </OutputFormat>
+        <variable GUID="21db13c6-5159-4a02-958e-dfb049679a58" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="QNAME" label="Qualifying Name" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="d70d62cd-c84e-42d9-acba-d98805b6dd9f" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NAME" label="Name of Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="3abf7902-aee4-49c4-9990-1839b97b37fc" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FIPS" label="FIPS" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="500e9218-e612-4df0-ab5a-68126e865d2e" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NATION" label="Nation" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="f0389466-e0a9-4170-a348-f3a278890783" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="MSA" label="Metropolitan Statistical Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="9e31ca5c-d787-4e25-adb3-ee41daff28f5" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ZC" label="Zip Code" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="529c8e05-dee9-4031-984d-52b3d35ca920" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="false" TablesTreeNodeExpanded="false" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="false" description="" ProductTags="" Visible="true" abbreviation="SE" source="" publisher="" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
+      <DataBibliographicInfo />
+      <notes />
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="8d4da610-182b-4429-b446-2a824dcc1af6" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL010_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="40d61bc4-a205-49ee-85f0-633d58751116" GeoTypeName="SL320" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL320_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL320_" DbPrimaryKey="SL320_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="028798fa-cf66-4591-8c47-9432b2100a7f" GeoTypeName="SL865" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL865_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL865_" DbPrimaryKey="SL320_FIPS,SL865_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      </datasets>
+      <iterations />
+      <tables>
+        <table GUID="b77eb785-d561-4273-a1b5-e0e05eb23647" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="0" name="T001" displayName="T001" title="Small Area Fair Market Rent" titleWrapped="Small Area Fair Market Rent" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="House Value;" ProductTags="" FilterRuleName="Median Rent" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="" uniqueTableId="T001" source="" DefaultColumnCaption="" samplingInfo="">
+          <mVisibleInMaps>true</mVisibleInMaps>
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns />
+          </OutputFormat>
+          <variable GUID="27b48ab3-0121-4401-9911-4a886b81229d" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_001" label="Small Area FMR Efficiencies" qLabel="Small Area FMR Efficiencies" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="  #ReturnType oretval = new #ReturnType();&#xD;&#xA;  oretval.Value =  #ORG:SAFMR2016_001_SAFMR0BR.Value;&#xD;&#xA;&#xD;&#xA;  return oretval;" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="fdd3591d-8af6-4d04-a45b-28d695db535c" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_002" label="Small Area FMR 1 Bedroom" qLabel="Small Area FMR 1 Bedroom" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="  #ReturnType oretval = new #ReturnType();&#xD;&#xA;  oretval.Value =  #ORG:SAFMR2016_001_SAFMR1BR.Value;&#xD;&#xA;&#xD;&#xA;  return oretval;" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="6ae35b5e-f38c-4298-9ce7-46f9522b5328" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_003" label="Small Area FMR 2 Bedrooms" qLabel="Small Area FMR 2 Bedrooms" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="  #ReturnType oretval = new #ReturnType();&#xD;&#xA;  oretval.Value =  #ORG:SAFMR2016_001_SAFMR2BR.Value;&#xD;&#xA;&#xD;&#xA;  return oretval;" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="b6c27e3c-dc24-4a75-9be4-f393882c8110" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_004" label="Small Area FMR 3 Bedrooms" qLabel="Small Area FMR 3 Bedrooms" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="  #ReturnType oretval = new #ReturnType();&#xD;&#xA;  oretval.Value =  #ORG:SAFMR2016_001_SAFMR3BR.Value;&#xD;&#xA;&#xD;&#xA;  return oretval;" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="4336427d-917a-488d-aa37-ce0f23e2c5be" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_005" label="Small Area FMR 4 Bedrooms" qLabel="Small Area FMR 4 Bedrooms" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="  #ReturnType oretval = new #ReturnType();&#xD;&#xA;  oretval.Value =  #ORG:SAFMR2016_001_SAFMR4BR.Value;&#xD;&#xA;&#xD;&#xA;  return oretval;" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+        </table>
+      </tables>
+    </SurveyDataset>
+    <SurveyDataset GUID="8f2f7e7a-74dc-4a06-b67e-592c99631d7f" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="false" TablesTreeNodeExpanded="false" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="false" description="" ProductTags="" Visible="true" abbreviation="ORG" source="" publisher="" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo />
+      <notes />
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="8fa204f4-4472-4e30-b647-e0773cc397ee" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL010_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="eaf9ba64-d004-4bb6-b776-2ee537e0483a" GeoTypeName="SL320" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL320_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL320_" DbPrimaryKey="SL320_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="5043d3a3-ba00-4093-804b-bcfa601a86e8" GeoTypeName="SL865" DbConnString="Server=prime; database=; uid=sewebsite3;pwd=granted128;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="SAFMR" GeoIdDbTableName="SAFMR2016_SL865_001" IsCached="false" DbTableNamePrefix="SAFMR2016_SL865_" DbPrimaryKey="SL320_FIPS,SL865_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      </datasets>
+      <iterations />
+      <tables>
+        <table GUID="712752f6-f80e-4c26-ac0c-1a5f198786c5" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="SAFMR2016_001" displayName="SAFMR2016_001" title="Small Area Fair Market Rent" titleWrapped="Small Area Fair Market Rent" titleShort="" universe="none" Visible="true" VisibleInMaps="false" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="SAFMR2016_001" source="" DefaultColumnCaption="" samplingInfo="">
+          <mVisibleInMaps>false</mVisibleInMaps>
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns />
+          </OutputFormat>
+          <variable GUID="cfdcd5cb-c584-4647-ad7b-c725f50def64" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SAFMR2016_001_SAFMR0BR" label="Small Area FMR Efficiencies" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="efe1b91e-5d82-40f3-b323-5eaf47c8bc6d" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SAFMR2016_001_SAFMR1BR" label="Small Area FMR 1 Bedroom" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="8c068ce5-6310-44a6-bf22-7b50cfa9e393" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SAFMR2016_001_SAFMR2BR" label="Small Area FMR 2 Bedrooms" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="fc020a1c-32d4-4848-a498-b2c75a6bf93e" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SAFMR2016_001_SAFMR3BR" label="Small Area FMR 3 Bedrooms" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="f58900e1-8848-4356-aff2-049484fd3d68" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SAFMR2016_001_SAFMR4BR" label="Small Area FMR 4 Bedrooms" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="7" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>Small Area Fair Market Rent 2016</string>
+  </Categories>
+</survey>
