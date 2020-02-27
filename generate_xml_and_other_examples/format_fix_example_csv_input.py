@@ -6,9 +6,10 @@ variables has the same properties as the old one.
 """
 from lxml import etree as et
 from os.path import join
+import pandas as pd
 
 
-def main(template_file, file_to_fix):
+def main(settings, file_to_fix):
     """
     Function to run them all
     :param template_file: file to use as a template
@@ -39,28 +40,11 @@ def main(template_file, file_to_fix):
     }
 
     parser = et.XMLParser(strip_cdata=False)
-    doc = et.parse(template_file)
-    original_variables = doc.xpath('//SurveyDataset[@abbreviation="ORG"]//variable')
-    form_template = {v.attrib['name'][-3:]: [v.attrib['indent'],
-                                        v.attrib['dataType'],
-                                        v.attrib['dataTypeLength'],
-                                        v.attrib['formatting'],
-                                        v.attrib['aggMethod'],
-                                        v.attrib['AggregationStr'],
-                                        v.attrib['customFormatStr'],
-                                        v.attrib['suppType'],
-                                        v.attrib['SuppField'],
-                                        v.attrib['suppFlags'],
-                                        v.attrib['BubbleSizeHint'],
-                                        v.attrib['FR'],
-                                        v.attrib['PN'],
-                                        ] for v in original_variables}
-
     doc_to_fix = et.parse(file_to_fix, parser=parser)
     variables = doc_to_fix.xpath('//SurveyDataset[@abbreviation="ORG"]//variable')
     for var in variables:
         try:
-            var_values = form_template[var.attrib['name'][-3:]]
+            var_values = settings[var.attrib['name'][-3:]]
         except KeyError:
             continue
 
@@ -77,13 +61,13 @@ if __name__ == '__main__':
                 'PC2012.xml', 'PC2013.xml', 'PC2014.xml', 'PC2015.xml', 'PC2016.xml',
                 'PC2017.xml'}
 
-    project_template = 'PC2018.xml'
-
     working_dir = r'C:\Projects\Website-ASP.NET\pub\ReportData\Metadata'
+
+    input_file = pd.read_csv('settings.csv')
 
     for project in projects:
         print(f'Editing {project}')
 
-        main(join(working_dir, project_template), join(working_dir, project))
+        main(input_file, join(working_dir, project))
 
         print('Done!')
