@@ -1,0 +1,13 @@
+Table,variable,name_variable,short_name,Color palette,Cutpoints,Categories,Type of map,Category
+Taula 1,Nomen_V1,Población total,,Military green,POB_SPAIN,,bubbles,Poblamiento
+Taula 1,Nomen_V2,Población total en núcleo,,Military green,Urban/Rural Population,,Shaded,Poblamiento
+Taula 1,Nomen_V3,Población total en diseminado,,Military green,Urban/Rural Population,,Shaded,Poblamiento
+Taula 2,Nomen_V4,Población masculina,,Military green,POB_SPAIN,,bubbles,Poblamiento
+Taula 2,Nomen_V5,Población masculina en núcleo,,Military green,Urban/Rural Population,,Shaded,Poblamiento
+Taula 2,Nomen_V6,Población masculina en diseminado,,Military green,Urban/Rural Population,,Shaded,Poblamiento
+Taula 3,Nomen_V7,Población femenina,,Military green,POB_SPAIN,,bubbles,Poblamiento
+Taula 3,Nomen_V8,Población femenina en núcleo,,Military green,Urban/Rural Population,,Shaded,Poblamiento
+Taula 3,Nomen_V9,Población femenina en diseminado,,Military green,Urban/Rural Population,,Shaded,Poblamiento
+Tabla 4,Nomen_V10,Entidades colectivas,,Military green,COLECTIVAS_SPAIN,,Shaded,Poblamiento
+Tabla 5,Nomen_V11,Entidades singulares,,Military green,ENTIDADES_SPAIN,,Shaded,Poblamiento
+Tabla 6,Nomen_V12,Núcleos de población,,Military green,ENTIDADES_SPAIN,,Shaded,Poblamiento
