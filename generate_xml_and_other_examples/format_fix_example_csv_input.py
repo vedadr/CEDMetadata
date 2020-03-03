@@ -70,9 +70,12 @@ def main(settings, file_to_fix):
     variables = doc_to_fix.xpath('//SurveyDataset[@abbreviation="ORG"]//variable')
     for var in variables:
 
-        variable_name_from_full = var.attrib['name'][[i for i,c in enumerate(var.attrib['name']) if c == '_'][-2]+1:]
+        variable_name_from_full = var.attrib['name'][[i for i, c in enumerate(var.attrib['name']) if c == '_'][-2] + 1:]
 
         var_values = settings[settings['name'].str.lower() == variable_name_from_full.lower()]
+
+        if len(var_values) == 0:
+            var_values = settings[settings['name'].str.lower() == var.attrib['name'].lower()]
 
         for attribute in settings.columns:
             if attribute == 'name':  # we don't want to change the name
@@ -81,20 +84,19 @@ def main(settings, file_to_fix):
                 var.attrib[attribute]
             except KeyError:
                 continue
-            try:
+
+            if not pd.isna(var_values[attribute].item()):  # change values that actually exists in the sheet
                 var.attrib[attribute] = var_values[attribute].item()
-            except ValueError:
-                print('stop')
 
     print('Writing doc ...')
     doc_to_fix.write(file_to_fix, pretty_print=True)
 
 
 def get_palettes():
-
     with open(r'C:\Projects\dingo-maps\maps\color-palettes\ced-color-palettes.json', 'r') as file:
         palette_definitions = json.load(file)
     return {tag['title']: tag['id'] for tag in palette_definitions}
+
 
 if __name__ == '__main__':
 
@@ -110,7 +112,7 @@ if __name__ == '__main__':
     working_dir = r'C:\Projects\Website-ASP.NET\pub\ReportData\Metadata'
 
     palettes = get_palettes()
-    input_file_variables = pd.read_csv('settings.csv')
+    input_file_variables = pd.read_csv('settings.csv', encoding='latin-1')
     map_type_mapping = {'bubbles': 'Add', 'Shaded': 'Rate|||100000',
                         'Bubbles': 'Add', 'shaded': 'Rate|||100000'}
 
