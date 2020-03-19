@@ -1,6 +1,6 @@
 """
 This script will generate metadata file
-v2.7 CED EDITION
+v2.8 CED EDITION
 """
 import collections  # used for dictionary sorting
 import csv
@@ -128,14 +128,25 @@ def get_table_metadata_from_db(server, dbname, user, password, project_year, tru
                 )
 
     metadata_from_file = {}
-    with open(file_names_list_path) as f:
-        reader = csv.reader(f, delimiter=',', quotechar='"')
-        for line in reader:
-            try:
-                metadata_from_file[line[0]] = line[1]
-            except IndexError:
-                print('Looks like there is an empty line in files_list, skipping ...')
-                continue
+	try:
+		with open(file_names_list_path, 'r') as f:
+			reader = csv.reader(f, delimiter=',', quotechar='"')
+			for line in reader:
+				try:
+					metadata_from_file[line[0]] = line[1]
+				except IndexError:
+					print('Looks like there is an empty line in files_list, skipping ...')
+					continue
+	except:
+		with open(file_names_list_path, 'r', encoding='utf8') as f:
+			reader = csv.reader(f, delimiter=',', quotechar='"')
+			for line in reader:
+				try:
+					metadata_from_file[line[0]] = line[1]
+				except IndexError:
+					print('Looks like there is an empty line in files_list, skipping ...')
+					continue
+
     for i in meta_data:
         meta_table_dictionary[i[1]] = metadata_from_file[i[0]]
 
