@@ -1,6 +1,6 @@
 """
 This script will generate metadata file
-v2.8 CED EDITION
+v2.9 CED EDITION
 """
 import collections  # used for dictionary sorting
 import csv
@@ -76,7 +76,7 @@ def create_acronym(full_string):
             ) if letter == ' '
         ]
         acronym = full_string[0] + \
-            ''.join([full_string[i + 1] for i in blank_pos]).upper()
+                  ''.join([full_string[i + 1] for i in blank_pos]).upper()
     else:
         acronym = full_string.upper()
     return acronym
@@ -99,7 +99,7 @@ def get_table_metadata_from_db(server, dbname, user, password, project_year, tru
 
     if trusted_connection:
         conn = pyodbc.connect(
-            "Driver={SQL Server};Server=localhost\SQLEXPRESS;Trusted_Connection=yes;database="+dbname,
+            "Driver={SQL Server};Server=localhost\SQLEXPRESS;Trusted_Connection=yes;database=" + dbname,
         )
     else:
         conn = pymssql.connect(
@@ -128,24 +128,24 @@ def get_table_metadata_from_db(server, dbname, user, password, project_year, tru
                 )
 
     metadata_from_file = {}
-	try:
-		with open(file_names_list_path, 'r') as f:
-			reader = csv.reader(f, delimiter=',', quotechar='"')
-			for line in reader:
-				try:
-					metadata_from_file[line[0]] = line[1]
-				except IndexError:
-					print('Looks like there is an empty line in files_list, skipping ...')
-					continue
-	except:
-		with open(file_names_list_path, 'r', encoding='utf8') as f:
-			reader = csv.reader(f, delimiter=',', quotechar='"')
-			for line in reader:
-				try:
-					metadata_from_file[line[0]] = line[1]
-				except IndexError:
-					print('Looks like there is an empty line in files_list, skipping ...')
-					continue
+    try:
+        with open(file_names_list_path, 'r') as f:
+            reader = csv.reader(f, delimiter=',', quotechar='"')
+            for line in reader:
+                try:
+                    metadata_from_file[line[0]] = line[1]
+                except IndexError:
+                    print('Looks like there is an empty line in files_list, skipping ...')
+                    continue
+    except:
+        with open(file_names_list_path, 'r', encoding='utf8') as f:
+            reader = csv.reader(f, delimiter=',', quotechar='"')
+            for line in reader:
+                try:
+                    metadata_from_file[line[0]] = line[1]
+                except IndexError:
+                    print('Looks like there is an empty line in files_list, skipping ...')
+                    continue
 
     for i in meta_data:
         meta_table_dictionary[i[1]] = metadata_from_file[i[0]]
@@ -189,7 +189,7 @@ def get_tables_from_db(server, dbname, project_year, user, password, trustedConn
     if trustedConnection:
         # for trusted connection
         conn = pyodbc.connect(
-            "Driver={SQL Server};Server=localhost\SQLEXPRESS;Trusted_Connection=yes;database="+dbname,
+            "Driver={SQL Server};Server=localhost\SQLEXPRESS;Trusted_Connection=yes;database=" + dbname,
         )
     else:
         conn = pymssql.connect(
@@ -203,7 +203,7 @@ def get_tables_from_db(server, dbname, project_year, user, password, trustedConn
         "SELECT name FROM sys.objects WHERE type_desc = 'USER_TABLE' AND name <> 'table_names' and left("
         "name,1) <> '_' and name like '%" +
         str(project_year) + "%' AND name <> 'sysdiagrams' ORDER BY "
-        "modify_date",
+                            "modify_date",
     )
 
     table_list = [str(*i) for i in cursor.fetchall() if i != 'table_names']
@@ -351,11 +351,11 @@ def get_datasets(connection_string, dbname, geo_level_info, project_id, user, pa
             DbConnString=connection_string,
             DbName=dbname,
             GeoIdDbTableName=project_id + \
-            '_' + i[0] + geo_id_suffix,
+                             '_' + i[0] + geo_id_suffix,
             # tablename e.g. 'LEIP1912_SL040_PRES_001'
             IsCached='false',
             DbTableNamePrefix=project_id + \
-            '_' + i[0] + '_',
+                              '_' + i[0] + '_',
             # tablename prefix e.g. 'LEIP1912_SL040_PRES_'
             DbPrimaryKey=get_table_fipses(
                 i[0] + '_FIPS', geo_level_info,
@@ -378,7 +378,7 @@ def get_geo_id_db_table_name(sumlev, dbname, user, password, server, project_id,
     """
     if trusted_connection:
         conn = pyodbc.connect(
-            "Driver={SQL Server};Server=localhost\SQLEXPRESS;Trusted_Connection=yes;database="+dbname,
+            "Driver={SQL Server};Server=localhost\SQLEXPRESS;Trusted_Connection=yes;database=" + dbname,
         )
     else:
         conn = pymssql.connect(
@@ -536,10 +536,10 @@ def get_tables(server, dbname, variable_description, user, password, project_yea
         global tableCounter
         tableCounter += 1
         meta_table_name = k[:cut_pos[0]] + '_' + k[
-            cut_pos[
-                -1
-            ] + 1:
-        ]  # this defines how table Id will be presented in metadata
+                                                 cut_pos[
+                                                     -1
+                                                 ] + 1:
+                                                 ]  # this defines how table Id will be presented in metadata
         # get last element of string after _ to be table suffix
         table_suffix = k.split('_')[-1]
         if table_suffix not in table_meta_dictionary.keys():
@@ -685,9 +685,9 @@ def get_geo_id_tables(geo_level_info):
 
 # @profile
 def create_metadata_xml(
-    connection_string, server, dbname, project_name, project_year, metadata_file_name,
-    geo_level_info, project_id, variable_description, output_directory, user, password,
-    trusted_connection, file_names_list_path,
+        connection_string, server, dbname, project_name, project_year, metadata_file_name,
+        geo_level_info, project_id, variable_description, output_directory, user, password,
+        trusted_connection, file_names_list_path,
 ):
     e = ElementMaker()
 
@@ -934,9 +934,9 @@ def verify_config(config_path_value):
     if config['projectYear'] > datetime.datetime.now().year:
         warnings.append('Warning: Project year is set in future.')
     if (not (
-        os.path.isfile(config['variableDescriptionLocation']) or os.path.isdir(
-            config['variableDescriptionLocation'],
-        )
+            os.path.isfile(config['variableDescriptionLocation']) or os.path.isdir(
+        config['variableDescriptionLocation'],
+    )
     )):
         errors.append('Error: Something is wrong with variable info location!')
 
