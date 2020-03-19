@@ -1,6 +1,6 @@
 """
 This script will generate metadata file
-v2.6 CED EDITION
+v2.7 CED EDITION
 """
 import collections  # used for dictionary sorting
 import csv
@@ -49,7 +49,7 @@ def get_table_fipses(table_fips, geo_level_info):
 
 def get_config(config_file):
     with open(config_file, 'r') as conf:
-        config = yaml.load(conf)
+        config = yaml.load(conf, Loader=yaml.FullLoader)
     return config
 
 
