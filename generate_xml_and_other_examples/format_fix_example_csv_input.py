@@ -116,7 +116,7 @@ if __name__ == '__main__':
     map_type_mapping = {'bubbles': 'Add', 'Shaded': 'Rate|||100000',
                         'Bubbles': 'Add', 'shaded': 'Rate|||100000'}
 
-    column_name_mapping = {'variable': 'name',
+    column_naformat_fix_example_csv_input.pyme_mapping = {'variable': 'name',
                            'name_variable': 'label',
                            'short_name': 'qlabel',
                            'Color palette': 'PN',
