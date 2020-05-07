@@ -8,6 +8,30 @@ from lxml import etree as et
 from os.path import join
 
 
+def fix_title(doc, doc_to_fix):
+    fix_scope_variables = {
+        "Visible": 0,
+        "GeoTypeTreeNodeExpanded": 1,
+        "GeoCorrespondenceTreeNodeExpanded": 2,
+        "DisplayName": 3,
+        "Categories": 4
+    }
+
+    original_survey = doc.xpath('/survey')
+
+    survey_to_fix = doc_to_fix.xpath('/survey')
+
+    original_survey_year = original_survey[0].attrib['year']
+
+    # this assumes that survey naming is following convention prefix+survey year e.g. EVR2011,PC2018 etc.
+    new_survey_year = survey_to_fix[0].attrib['name'][-4:]
+
+    for fix, index in fix_scope_variables.items():
+        survey_to_fix[0].attrib[fix] = original_survey[0].attrib[fix].replace(original_survey_year, new_survey_year)
+
+    return doc_to_fix
+
+
 def fix_tables(doc, doc_to_fix):
     fix_scope_tables = {
         "VariablesAreExclusive": 0,
@@ -147,6 +171,7 @@ def main(template_file, file_to_fix):
     doc = et.parse(template_file)
     doc_to_fix = et.parse(file_to_fix, parser=parser)
 
+    doc_to_fix = fix_title(doc, doc_to_fix)
     doc_to_fix = fix_tables(doc, doc_to_fix)
     doc_to_fix = fix_variables(doc, doc_to_fix)
 
@@ -160,7 +185,7 @@ if __name__ == '__main__':
 
     project_template = 'evr2011.xml'
 
-    working_dir = r'C:\Projects\Website-ASP.NET\pub\ReportData\Metadata'
+    working_dir = r'C:\Projects\CEDMetadata'
 
     for project in projects:
         print(f'Editing {project}')
