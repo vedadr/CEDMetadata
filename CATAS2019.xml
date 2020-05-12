@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="9720b310-4397-4f0a-9c38-ebb7cc66487b" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="CATAS2019" DisplayName="Catastro 2019" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2019" CountryName="" DocLinksAsString="" Categories="Catastro 2019;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="9720b310-4397-4f0a-9c38-ebb7cc66487b" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="CATAS2019" DisplayName="Catastro 2019" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2019" CountryName="" DocLinksAsString="" Categories="Catastro 2019;Bienes inmuebles;Poblamiento;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -110,7 +110,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
           </OutputFormat>
-          <variable GUID="4d238b5c-2973-4add-87bc-6db4715e2c0c" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="cedevita" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CATAS2019_003_CATAS_V17" label="Superficie urbana (hectareas)" qLabel="Superficie urbana (hectareas)" indent="0" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+          <variable GUID="4d238b5c-2973-4add-87bc-6db4715e2c0c" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="cedevita" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CATAS2019_003_CATAS_V17" label="Superficie urbana (hectareas)" qLabel="Superficie urbana (hectareas)" indent="0" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="2" />
           <variable GUID="410a8d10-e307-4b69-9550-e58a9488519d" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="cedevita" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CATAS2019_003_CATAS_V18" label="Superficie construida" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
           <variable GUID="2756c537-fd9c-410a-9230-05333abe51d6" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="cedevita" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CATAS2019_003_CATAS_V19" label="Solares" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
         </table>
@@ -126,5 +126,7 @@
   </SurveyDatasets>
   <Categories>
     <string>Catastro 2019</string>
+    <string>Bienes inmuebles</string>
+    <string>Poblamiento</string>
   </Categories>
 </survey>
