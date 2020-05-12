@@ -1,4 +1,4 @@
-<survey GUID="4abd7514-db01-41ac-ae96-246f04c195c7" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EVR2018" DisplayName="Altas y bajas residenciales 2018" year="2018" Categories="">
+<survey GUID="4abd7514-db01-41ac-ae96-246f04c195c7" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EVR2018" DisplayName="Estad&#237;sticas de Variaciones Residenciales" year="2018" Categories="Cambios Residenciales;">
   <Description><![CDATA[]]></Description>
   <notes><![CDATA[]]></notes>
   <PrivateNotes><![CDATA[]]></PrivateNotes>
