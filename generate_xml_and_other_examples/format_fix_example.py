@@ -27,10 +27,11 @@ def fix_title(doc, doc_to_fix):
     new_survey_year = survey_to_fix[0].attrib['name'][-4:]
 
     for fix, index in fix_scope_variables.items():
-        if original_survey_year in original_survey[0].attrib[fix]:
-            survey_to_fix[0].attrib[fix] = original_survey[0].attrib[fix].replace(original_survey_year, new_survey_year)
-        else:
-            survey_to_fix[0].attrib[fix] = original_survey[0].attrib[fix] + ' ' + new_survey_year
+        if fix == 'DisplayName':
+            if original_survey_year in original_survey[0].attrib[fix]:
+                survey_to_fix[0].attrib[fix] = original_survey[0].attrib[fix].replace(original_survey_year, new_survey_year)
+            else:
+                survey_to_fix[0].attrib[fix] = original_survey[0].attrib[fix] + ' ' + new_survey_year
 
     return doc_to_fix
 
