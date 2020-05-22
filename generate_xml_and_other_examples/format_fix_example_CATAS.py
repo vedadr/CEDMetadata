@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'evr2018.xml', 'evr2017.xml', 'evr2016.xml'}
+    projects = {'CATAS2018.xml','CATAS2017.xml','CATAS2016.xml','CATAS2015.xml','CATAS2014.xml','CATAS2013.xml','CATAS2012.xml',}
 
-    project_template = 'evr2011.xml'
+    project_template = 'CATAS2019.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
