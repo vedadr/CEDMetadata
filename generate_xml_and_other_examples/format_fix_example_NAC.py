@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'PC2019.xml','PC2017.xml','PC2016.xml','PC2015.xml','PC2014.xml'}
+    projects = {'NAC2018.xml','NAC2016.xml','NAC2015.xml','NAC2014.xml','NAC2013.xml','NAC2012.xml','NAC2011.xml','NAC2010.xml','NAC2009.xml','NAC2008.xml','NAC2007.xml','NAC2006.xml','NAC2005.xml','NAC2004.xml','NAC2003.xml','NAC2002.xml','NAC2001.xml','NAC2000.xml','NAC1999.xml','NAC1998.xml','NAC1997.xml','NAC1996.xml','NAC1995.xml','NAC1994.xml','NAC1993.xml','NAC1992.xml','NAC1991.xml','NAC1990.xml','NAC1989.xml','NAC1988.xml','NAC1987.xml','NAC1986.xml'}
 
-    project_template = 'PC2018.xml'
+    project_template = 'NAC2017.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 

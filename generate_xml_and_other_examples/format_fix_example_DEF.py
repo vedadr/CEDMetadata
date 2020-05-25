@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'PC2019.xml','PC2017.xml','PC2016.xml','PC2015.xml','PC2014.xml'}
+    projects = {'DEF2018.xml','DEF2016.xml','DEF2015.xml','DEF2014.xml','DEF2013.xml','DEF2012.xml','DEF2011.xml','DEF2010.xml','DEF2009.xml','DEF2008.xml','DEF2007.xml','DEF2006.xml','DEF2005.xml','DEF2004.xml','DEF2003.xml','DEF2002.xml','DEF2001.xml','DEF2000.xml','DEF1999.xml','DEF1998.xml','DEF1997.xml','DEF1996.xml','DEF1995.xml','DEF1994.xml','DEF1993.xml','DEF1992.xml','DEF1991.xml','DEF1990.xml','DEF1989.xml','DEF1988.xml','DEF1987.xml','DEF1986.xml'}
 
-    project_template = 'PC2018.xml'
+    project_template = 'DEF2017.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
