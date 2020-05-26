@@ -83,7 +83,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="fab8d05b-fd4e-4572-9b7f-b33060ce1bbe" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_001" displayName="NOMEN2014_001" title="Poblaci&#243;n por tipo de poblamiento" titleWrapped="Poblaci&#243;n por tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="NOMEN2014_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="Urban/Rural Population" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_001" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="fab8d05b-fd4e-4572-9b7f-b33060ce1bbe" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_001" displayName="NOMEN2014_001" title="Poblaci&#243;n por tipo de poblamiento" titleWrapped="Poblaci&#243;n por tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="NOMEN2014_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="Urban/Rural Population" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_001" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -93,7 +93,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="9135bfcc-706e-4e05-b42b-936b930692f0" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_002" displayName="NOMEN2014_002" title="Poblaci&#243;n masculina por tipo de poblamiento" titleWrapped="Poblaci&#243;n masculina por tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="NOMEN2014_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="Urban/Rural Population" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_002" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="9135bfcc-706e-4e05-b42b-936b930692f0" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_002" displayName="NOMEN2014_002" title="Poblaci&#243;n masculina por tipo de poblamiento" titleWrapped="Poblaci&#243;n masculina por tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="NOMEN2014_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="Urban/Rural Population" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_002" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -103,7 +103,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="c8191771-2047-4d1b-96c9-ec73924f9491" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_003" displayName="NOMEN2014_003" title="Poblaci&#243;n femenina por tipo de poblamiento" titleWrapped="Poblaci&#243;n femenina por tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="NOMEN2014_003" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="Urban/Rural Population" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_003" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="c8191771-2047-4d1b-96c9-ec73924f9491" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_003" displayName="NOMEN2014_003" title="Poblaci&#243;n femenina por tipo de poblamiento" titleWrapped="Poblaci&#243;n femenina por tipo de poblamiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="NOMEN2014_003" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="Urban/Rural Population" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_003" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -113,7 +113,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="cc0dcfdb-532e-4a53-8b3e-c102341e74cb" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_004" displayName="NOMEN2014_004" title="Entidades colectivas" titleWrapped="Entidades colectivas" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="NOMEN2014_004" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="COLECTIVAS_SPAIN" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_004" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="cc0dcfdb-532e-4a53-8b3e-c102341e74cb" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_004" displayName="NOMEN2014_004" title="Entidades colectivas" titleWrapped="Entidades colectivas" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="NOMEN2014_004" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="COLECTIVAS_SPAIN" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_004" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -121,7 +121,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="f278c824-528e-47e5-a7bc-1e2dfeceddb5" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_005" displayName="NOMEN2014_005" title="Entidades singulares" titleWrapped="Entidades singulares" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="NOMEN2014_005" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="ENTIDADES_SPAIN" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_005" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="f278c824-528e-47e5-a7bc-1e2dfeceddb5" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_005" displayName="NOMEN2014_005" title="Entidades singulares" titleWrapped="Entidades singulares" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="NOMEN2014_005" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="ENTIDADES_SPAIN" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_005" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -129,11 +129,11 @@
         </table>
       </tables>
       <tables>
-        <table GUID="c8dc885a-eb77-4642-af17-eef106a92fef" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_006" displayName="NOMEN2014_006" title="Entidades de poblaci&#243;n" titleWrapped="Entidades de poblaci&#243;n" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="006" uniqueTableId="NOMEN2014_006" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="ENTIDADES_SPAIN" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_006" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="c8dc885a-eb77-4642-af17-eef106a92fef" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="NOMEN2014_006" displayName="NOMEN2014_006" title="Entidades de poblaci&#243;n" titleWrapped="Entidades de poblaci&#243;n" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="006" uniqueTableId="NOMEN2014_006" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Poblamiento;" ProductTags="" FilterRuleName="ENTIDADES_SPAIN" PaletteType="" PaletteInverse="false" PaletteName="" source="NOMEN2011_006" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="6a583ada-d4e2-4356-9aff-309fd67af9a3" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2014_006_NOMEN_V12" label="N&#250;cleos de poblaci&#243;n" qLabel="N&#250;cleos de poblaci&#243;n" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="entidades_spain" PN="green" PT=""/>
+          <variable GUID="6a583ada-d4e2-4356-9aff-309fd67af9a3" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NOMEN2014_006_NOMEN_V12" label="N&#250;cleos de poblaci&#243;n" qLabel="N&#250;cleos de poblaci&#243;n" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="entidades_spain" PN="cedevita" PT=""/>
         </table>
       </tables>
     </SurveyDataset>
