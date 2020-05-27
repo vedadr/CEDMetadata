@@ -315,7 +315,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="5d9d5d94-dbf3-4921-88c2-0289b7990bcd" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PC2014_010" displayName="PC2014_010" title="Nacidos/as en Espa&#241;a residentes en otra CCAA por edad,Lugar de nacimiento; Edad" titleWrapped="Nacidos/as en Espa&#241;a residentes en otra CCAA por edad,Lugar de nacimiento; Edad" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="010" uniqueTableId="PC2014_010" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PC2018_010" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="5d9d5d94-dbf3-4921-88c2-0289b7990bcd" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PC2014_010" displayName="PC2014_010" title="Nacidos/as en Espa&#241;a residentes en otra CCAA por edad,Lugar de nacimiento; Edad" titleWrapped="Nacidos/as en Espa&#241;a residentes en otra CCAA por edad,Lugar de nacimiento; Edad" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="010" uniqueTableId="PC2014_010" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PC2018_010" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
