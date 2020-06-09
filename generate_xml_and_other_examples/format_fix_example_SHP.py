@@ -185,7 +185,7 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'SHP2001.xml', 'SHP1991.xml', 'SHP1981.xml', 'SHP1970.xml', 'SHP1960.xml', 'SHP1950.xml', 'SHP1940.xml', 'SHP1930.xml', 'SHP1920.xml', 'SHP1910.xml', 'SHP1900.xml'}
+    projects = {'SHP2001.xml', 'SHP1991.xml', 'SHP1981.xml', 'SHP1970.xml', 'SHP1960.xml', 'SHP1950.xml', 'SHP1940.xml', 'SHP1930.xml', 'SHP1920.xml', 'SHP1910.xml', 'SHP1900.xml','SHP2019.xml'}
 
     project_template = 'SHP2011.xml'
 

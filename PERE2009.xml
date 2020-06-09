@@ -76,7 +76,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="cb4d41e1-d056-45b0-8f39-aa0a1a3bb9fe" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_001" displayName="PERE2009_001" title="Residentes en el extranjero por sexo" titleWrapped="Residentes en el extranjero por sexo" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="PERE2009_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_001" DefaultColumnCaption="PERE2017_001" samplingInfo="PERE2011_001">
+        <table GUID="cb4d41e1-d056-45b0-8f39-aa0a1a3bb9fe" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_001" displayName="PERE2009_001" title="Residentes en el extranjero por sexo" titleWrapped="Residentes en el extranjero por sexo" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="PERE2009_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_001" DefaultColumnCaption="PERE2014_001" samplingInfo="PERE2011_001">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -86,7 +86,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="77811e84-59d7-4438-8bd6-7be88fa83c87" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_002" displayName="PERE2009_002" title="Residentes en el extranjero por lugar de nacimiento" titleWrapped="Residentes en el extranjero por lugar de nacimiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="PERE2009_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_002" DefaultColumnCaption="PERE2017_002" samplingInfo="PERE2011_002">
+        <table GUID="77811e84-59d7-4438-8bd6-7be88fa83c87" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_002" displayName="PERE2009_002" title="Residentes en el extranjero por lugar de nacimiento" titleWrapped="Residentes en el extranjero por lugar de nacimiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="PERE2009_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_002" DefaultColumnCaption="PERE2014_002" samplingInfo="PERE2011_002">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -96,7 +96,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="34e2d365-cc6f-4213-b880-2d878d62609d" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_003" displayName="PERE2009_003" title="Residentes en el extranjero nacidos en Espa&#241;a por sexo" titleWrapped="Residentes en el extranjero nacidos en Espa&#241;a por sexo" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="PERE2009_003" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_003" DefaultColumnCaption="PERE2017_003" samplingInfo="PERE2011_003">
+        <table GUID="34e2d365-cc6f-4213-b880-2d878d62609d" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_003" displayName="PERE2009_003" title="Residentes en el extranjero nacidos en Espa&#241;a por sexo" titleWrapped="Residentes en el extranjero nacidos en Espa&#241;a por sexo" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="PERE2009_003" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_003" DefaultColumnCaption="PERE2014_003" samplingInfo="PERE2011_003">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -106,7 +106,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="c1df64e4-e9ab-45de-a921-4c4debcfd7a7" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_004" displayName="PERE2009_004" title="Residentes en el extranjero nacidos en Espa&#241;a por lugar de residencia" titleWrapped="Residentes en el extranjero nacidos en Espa&#241;a por lugar de residencia" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="PERE2009_004" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_004" DefaultColumnCaption="PERE2017_004" samplingInfo="PERE2011_004">
+        <table GUID="c1df64e4-e9ab-45de-a921-4c4debcfd7a7" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_004" displayName="PERE2009_004" title="Residentes en el extranjero nacidos en Espa&#241;a por lugar de residencia" titleWrapped="Residentes en el extranjero nacidos en Espa&#241;a por lugar de residencia" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="PERE2009_004" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_004" DefaultColumnCaption="PERE2014_004" samplingInfo="PERE2011_004">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -117,7 +117,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="2dc8f4d6-1e4f-49dc-88b3-694bb2aff733" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_005" displayName="PERE2009_005" title="Residentes en el extranjero nacidos en el extranjero por sexo" titleWrapped="Residentes en el extranjero nacidos en el extranjero por sexo" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="PERE2009_005" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_005" DefaultColumnCaption="PERE2017_005" samplingInfo="PERE2011_005">
+        <table GUID="2dc8f4d6-1e4f-49dc-88b3-694bb2aff733" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_005" displayName="PERE2009_005" title="Residentes en el extranjero nacidos en el extranjero por sexo" titleWrapped="Residentes en el extranjero nacidos en el extranjero por sexo" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="PERE2009_005" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_005" DefaultColumnCaption="PERE2014_005" samplingInfo="PERE2011_005">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -127,7 +127,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="9baf0064-293f-4004-9393-c7deaea6a041" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_006" displayName="PERE2009_006" title="Residentes en el extranjero nacidos en el extranjero por lugar de nacimiento" titleWrapped="Residentes en el extranjero nacidos en el extranjero por lugar de nacimiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="006" uniqueTableId="PERE2009_006" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_006" DefaultColumnCaption="PERE2017_006" samplingInfo="PERE2011_006">
+        <table GUID="9baf0064-293f-4004-9393-c7deaea6a041" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_006" displayName="PERE2009_006" title="Residentes en el extranjero nacidos en el extranjero por lugar de nacimiento" titleWrapped="Residentes en el extranjero nacidos en el extranjero por lugar de nacimiento" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="006" uniqueTableId="PERE2009_006" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_006" DefaultColumnCaption="PERE2014_006" samplingInfo="PERE2011_006">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -138,7 +138,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="6d8fa6a4-874b-4a7f-91c1-3722a3237848" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_007" displayName="PERE2009_007" title="Residentes en el extranjero por sexo y edad" titleWrapped="Residentes en el extranjero por sexo y edad" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="007" uniqueTableId="PERE2009_007" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_007" DefaultColumnCaption="PERE2017_007" samplingInfo="PERE2011_007">
+        <table GUID="6d8fa6a4-874b-4a7f-91c1-3722a3237848" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PERE2009_007" displayName="PERE2009_007" title="Residentes en el extranjero por sexo y edad" titleWrapped="Residentes en el extranjero por sexo y edad" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="007" uniqueTableId="PERE2009_007" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Espa&#241;oles en el extranjero;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PERE2011_007" DefaultColumnCaption="PERE2014_007" samplingInfo="PERE2011_007">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
