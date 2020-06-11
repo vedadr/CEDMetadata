@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CDocSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Visible="true" Indent="-1" TitleCss="" GUID="06f76e7c-4fc3-4ce9-80c1-66e2fa5b849c" Title="Technical Documentation: Testing">
+  <DocInfo>
+    <Publisher>Technical Documentation Census 2018</Publisher>
+    <Citation>PC2018, Technical Documentation: Testing</Citation>
+  </DocInfo>
+  <Text><![CDATA[]]></Text>
+  <DocSections>
+    <DocSection Visible="true" Indent="-1" TitleCss="" GUID="2be1d2fd-a4f5-4c5e-935f-a9557408f4a3" Title="Section 1: Test section 1">
+      <Text><![CDATA[]]></Text>
+      <DocSections>
+        <DocSection Visible="true" Indent="-1" TitleCss="" GUID="326199e8-bfcc-4bf4-af8e-2faed00da883" Title="Subsection 1.1: Test subsection 1.1">
+          <Text><![CDATA[]]></Text>
+          <DocSections />
+        </DocSection>
+        <DocSection Visible="true" Indent="-1" TitleCss="" GUID="929d87b2-8c7f-4326-a0c9-9a8dd2fe8bb5" Title="Subsection 1.2: Test subsection 1.2">
+          <Text><![CDATA[]]></Text>
+          <DocSections />
+        </DocSection>
+      </DocSections>
+    </DocSection>
+    <DocSection Visible="true" Indent="-1" TitleCss="" GUID="5ecca315-b8a9-41c8-9c7f-523d14e3b46c" Title="Section 2: Test section 2">
+      <Text><![CDATA[]]></Text>
+      <DocSections />
+    </DocSection>
+  </DocSections>
+</CDocSection>
