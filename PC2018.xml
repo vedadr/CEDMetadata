@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="c5a1e8fa-841f-4868-ad91-d96f6904345a" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="false" GeoCorrespondenceTreeNodeExpanded="false" name="PC2018" DisplayName="Padrón Continuo" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Población;Sexo;Edad;Nacionalidad;Lugar de nacimiento;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="c5a1e8fa-841f-4868-ad91-d96f6904345a" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="false" GeoCorrespondenceTreeNodeExpanded="false" name="PC2018" DisplayName="Padrón Continuo 2018" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Población;Sexo;Edad;Nacionalidad;Lugar de nacimiento;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
