@@ -1,79 +1,348 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CDocSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Visible="true" Indent="-1" TitleCss="" GUID="570bdfee-b4c8-42f9-bf5f-9c391d88bc17" Title="Doc_PC">
+<CDocSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Visible="true" Indent="-1" TitleCss="" GUID="570bdfee-b4c8-42f9-bf5f-9c391d88bc17" Title="Documentación técnica Padrón Contínuo">
   <DocInfo>
-    <Publisher />
-    <Citation />
+    <Publisher>Explorador Social</Publisher>
+    <Citation>Documentación técnica Padrón Contínuo (Explorador Social)</Citation>
   </DocInfo>
   <Text><![CDATA[]]></Text>
   <DocSections>
     <DocSection Visible="true" Indent="0" TitleCss="" GUID="d9c1a857-6b9a-4eff-bf38-d96817b62f9c" Title="Información de la fuente">
       <Text><![CDATA[Nombre de la fuente: Estadística del Padrón Continuo<br />
 Organismo responsable: Instituto Nacional de Estadística (INE)<br />
-Período: 2003-2018 (anual)<br />
+Período: 2003-2019 (anual)<br />
 Fecha de referencia: 1 de enero<br />
 <br />
 ]]></Text>
       <DocSections />
     </DocSection>
     <DocSection Visible="true" Indent="0" TitleCss="" GUID="eb81e8a5-7897-4dcb-8ca8-e0ee60710f44" Title="Contenido de la fuente">
-      <Text><![CDATA[Qué se cuenta: Población residente en España. Cifras oficiales de Población a 1 de enero.<br />
-Escala territorial: el lugar de residencia se facilita para distintos niveles de desagregación territorial: nacional, comunidades autónomas, provincias, municipios y secciones censales.<br />
-Variables: sexo, edad, nacionalidad y lugar de nacimiento<br />
-<br />
-El Padrón Municipal es un registro administrativo donde constan los vecinos del municipio.<br />
+      <Text><![CDATA[<u>Contenido</u>: población residente en España. Cifras oficiales de Población a 1 de enero.<br />
+
+<u>Escala territorial</u>: nacional, comunidades autónomas, provincias, municipios y secciones censales.<br />
+
+<u>Variables</u>: sexo, edad, nacionalidad y lugar de nacimiento (ver Tabla 1)<br /><br />
+
+
+
+El <b>Padrón Municipal</b> es un registro administrativo donde constan los vecinos del municipio.<br />
+
 Su formación, mantenimiento, revisión y custodia corresponde a los respectivos Ayuntamientos. Los Ayuntamientos deben remitir al INE las variaciones mensuales que se producen en los datos de sus padrones municipales.<br />
+
 El INE, en cumplimiento de sus competencias, realiza las comprobaciones oportunas con el fin de subsanar posibles errores y duplicidades y obtiene para cada municipio la cifra de población a 1 de enero de cada año que configuran las <b>Cifras Oficiales de Población de los Municipios</b>, las cuales se aprueban por Real Decreto.<br />
-A su vez, el INE produce la <b>Estadística del Padrón continuo </b>que se elabora a partir de las variables básicas que contienen los ficheros. Esta es la fuente que se utiliza.<br />
-<br />
+
+A su vez, el INE produce la <b>Estadística del Padrón Continuo</b> que se elabora a partir de las variables básicas que contienen los ficheros. Esta es la fuente que se utiliza.<br />
+
+
+
+
 ]]></Text>
       <DocSections />
     </DocSection>
-    <DocSection Visible="true" Indent="0" TitleCss="" GUID="20065233-9b9b-41f1-93d1-a885d578673c" Title="Variables y valores">
-      <Text><![CDATA[Lugar de residencia<br />
-Sección censal<br />
+    <DocSection Visible="true" Indent="0" TitleCss="" GUID="20065233-9b9b-41f1-93d1-a885d578673c" Title="Tabla 1. Variables y valores">
+      <Text><![CDATA[<table border="2">
+
+            <tr>
+
+              <td>Lugar de residencia</td>
+
+              <td>Sección censal<br />
+
 Municipio<br />
+
 Provincia<br />
+
 Comunidad Autónoma<br />
-España<br />
+
+España</td>
+
+<td> </td>
+
+            </tr>
+
+            <tr>
+
+              <td>Sexo</td>
+
+              <td>Hombres<br />
+
+Mujeres</td>
+
+<td> </td>
+
+            </tr>
+
+          <tr>
+
+              <td> </td>
+
+ <td>Relación de sexos</td> <td>Mujeres por cada 100 Hombres</td>
+
+            </tr>
+
+         <tr>
+
+              <td>Edad</td>
+
+<td>Grandes grupos de edad</td> <td><1818-3435-6465+</td><br />
+
+
+
+            </tr><br />
+
 <br />
-Sexo<br />
-Hombres<br />
-Mujeres<br />
-Relación de sexosMujeres por cada 100 Hombres<br />
+
 <br />
-Edad<br />
-Grandes grupos de edad<18, 18-34, 35-64, 65+<br />
-Grupo quinquenal de edad0-4,…, 95-99, 100+<br />
-Edad mediaCalculada por la estructura de edades simples, y sumando 0,5<br />
+
 <br />
-Lugar de nacimiento<br />
+
 <br />
-Nacidos en España<br />
-En la misma provincia<br />
-En otra provincia<br />
-En antiguos territorios españoles<br />
+
+         <tr><br />
+
 <br />
-Nacidos en España<br />
-Comunidad Autónoma de nacimiento<br />
+
 <br />
-Nacidos en el extranjero<br />
-Unión Europea<br />
+
+<br />
+
+              <td></td><br />
+
+<td>Grupo quinquenal de edad</td> <td>0-4…95-99100+</td><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<br />
+
+         <tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+              <td></td><br />
+
+<td>Edad media</td> <td>Calculada por la estructura de edades simples, y sumando 0,5</td><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<br />
+
+         <tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+              <td>Lugar de nacimiento</td><br />
+
+<td>Nacidos en España</td> <td>En la misma provinciaEn otra provinciaEn antiguos territorios españoles</td><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+              <td></td><br />
+
+<td>Nacidos en España</td> <td>Comunidad Autónoma de nacimiento</td><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+              <td></td><br />
+
+<td>Nacidos en el extranjero</td> <td>Unión Europea<br />
+
+<br />
+
 Resto de Europa<br />
+
+<br />
+
 Norte de África<br />
+
+<br />
+
 Resto de África<br />
+
+<br />
+
 Latinoamérica<br />
+
+<br />
+
 Sur de Asia<br />
+
+<br />
+
 Este de Asia<br />
-Resto del mundo<br />
+
 <br />
-Nacidos en el extranjero<br />
-Primer lugar de nacimiento por grandes regiones<br />
+
+Resto del mundo</td><br />
+
 <br />
-Nacionalidad<br />
-Españoles<br />
-Extranjeros<br />
+
 <br />
+
 <br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<br />
+
+<tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+              <td></td><br />
+
+<td>Nacidos en el extranjero</td> <td>Primer lugar de nacimiento por grandes regiones</td><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+              <td>Nacionalidad</td><br />
+
+<td>EspañolesExtranjeros</td> <td></td><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+            </tr><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+          </table><br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
 ]]></Text>
       <DocSections />
     </DocSection>
