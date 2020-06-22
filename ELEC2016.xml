@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="a6beaf69-c460-4e00-9c5c-ada58dcba456" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2016" DisplayName="Elecciones 2016" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2016" CountryName="" DocLinksAsString="" Categories="Elecciones 2016;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="a6beaf69-c460-4e00-9c5c-ada58dcba456" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2016" DisplayName="Elecciones Generales 2016" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2016" CountryName="" DocLinksAsString="" Categories="Elecciones 2016;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
