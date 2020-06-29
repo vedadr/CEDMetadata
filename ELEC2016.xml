@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="a6beaf69-c460-4e00-9c5c-ada58dcba456" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2016" DisplayName="Elecciones Generales 2016" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2016" CountryName="" DocLinksAsString="" Categories="Elecciones 2016;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="a6beaf69-c460-4e00-9c5c-ada58dcba456" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2016" DisplayName="Elecciones Generales 2016" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2016" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 2016;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -77,7 +77,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="e5bcced9-dd00-4429-a9ce-df27af57f56c" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELEC2016_001" displayName="ELEC2016_001" title="Elecciones al Congreso de los Diputados. 26 de junio 2016" titleWrapped="Elecciones al Congreso de los Diputados. 26 de junio 2016" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="ELEC2016_001" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="e5bcced9-dd00-4429-a9ce-df27af57f56c" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELEC2016_001" displayName="ELEC2016_001" title="Elecciones al Congreso de los Diputados. 26 de junio 2016" titleWrapped="Elecciones al Congreso de los Diputados. 26 de junio 2016" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="ELEC2016_001" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
@@ -121,6 +121,6 @@
     </SurveyDataset>
   </SurveyDatasets>
   <Categories>
-    <string>Elecciones 2016</string>
+    <string>Elecciones Generales 2016</string>
   </Categories>
 </survey>
