@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="fb9e2879-8d05-459e-b2e2-79e2103c92e8" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EMP2012" DisplayName="Establecimientos 2012" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2012" CountryName="" DocLinksAsString="" Categories="Empresas;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="fb9e2879-8d05-459e-b2e2-79e2103c92e8" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EMP2012" DisplayName="Empresas por Actividad 2012" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2012" CountryName="" DocLinksAsString="" Categories="Empresas;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
