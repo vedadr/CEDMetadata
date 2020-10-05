@@ -172,7 +172,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
           </OutputFormat>
-          <variable GUID="78013f75-fadd-45e3-881e-929ea3781db9" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="Censo2011_008_CENSO_V42" label="Tamaño medio de los hogares" qLabel="Tamaño medio de los hogares" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" FR="HH_SIZE" AggregationStr="Rate|||100000" BubbleSizeHint="1" />
+          <variable GUID="78013f75-fadd-45e3-881e-929ea3781db9" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="Censo2011_008_CENSO_V42" label="Tamaño medio de los hogares" qLabel="Tamaño medio de los hogares" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" FR="Average HH and family size" AggregationStr="Rate|||100000" BubbleSizeHint="1" />
         </table>
       </tables>
     </SurveyDataset>
