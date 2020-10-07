@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="6daf677a-d703-422e-a41a-feeb3627ca57" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="RD2019" DisplayName="RD 2019" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2019" CountryName="" DocLinksAsString="" Categories="RD 2019;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="6daf677a-d703-422e-a41a-feeb3627ca57" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="RD2019" DisplayName="Reto Demográfico" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2019" CountryName="" DocLinksAsString="" Categories="RD 2019;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -9,7 +9,7 @@
   </Documentation>
   <geoTypes>
     <geoType MapDisplayScale="" GUID="e1a1b687-b073-4d16-b0c5-db96bb638df0" SearchPriorityCode="" Name="SL010" Label="TOTAL" QLabel="TOTAL" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="TOTAL" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="TOTAL" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
-      <Visible>true</Visible>
+      <Visible>false</Visible>
     </geoType>
     <geoType MapDisplayScale="" GUID="cc545b23-8d7b-4666-b626-ae4a91a56525" SearchPriorityCode="" Name="SL030" Label="CCAA" QLabel="CCAA" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="CCAA" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="1" Sumlev="030" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CCAA" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
       <Visible>false</Visible>
