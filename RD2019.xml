@@ -12,10 +12,10 @@
       <Visible>true</Visible>
     </geoType>
     <geoType MapDisplayScale="" GUID="cc545b23-8d7b-4666-b626-ae4a91a56525" SearchPriorityCode="" Name="SL030" Label="CCAA" QLabel="CCAA" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="CCAA" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="1" Sumlev="030" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CCAA" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
-      <Visible>true</Visible>
+      <Visible>false</Visible>
     </geoType>
     <geoType MapDisplayScale="" GUID="58815174-a5c4-4d08-b39c-e30c5a4aa2ab" SearchPriorityCode="" Name="SL040" Label="PROVINCIA" QLabel="PROVINCIA" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="PROVINCIA" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="2" Sumlev="040" FipsCodeLength="6" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="PROVINCIA" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
-      <Visible>true</Visible>
+      <Visible>false</Visible>
     </geoType>
     <geoType MapDisplayScale="" GUID="e74a4302-d4b8-495e-818c-a0eb51fce75a" SearchPriorityCode="" Name="SL050" Label="MUNICIPIO" QLabel="MUNICIPIO" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="MUNICIPIO" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="3" Sumlev="050" FipsCodeLength="11" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="MUNICIPIO" FipsCodePartialLength="5" Notes="" DocSectionLinks="">
       <Visible>true</Visible>
