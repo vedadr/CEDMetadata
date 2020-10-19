@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="6e4dcfa2-c985-4835-b212-e1d6b1c47f18" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="SSOC2017" DisplayName="Seguridad Social 2017" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2017" CountryName="" DocLinksAsString="" Categories="Altas laborales 2017;Empleo;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="6e4dcfa2-c985-4835-b212-e1d6b1c47f18" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="SSOC2017" DisplayName="Seguridad Social 2017" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2017" CountryName="" DocLinksAsString="" Categories="Empleo y desempleo;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -101,7 +101,6 @@
     </SurveyDataset>
   </SurveyDatasets>
   <Categories>
-    <string>Altas laborales 2017</string>
-    <string>Empleo</string>
+    <string>Empleo y desempleo</string>
   </Categories>
 </survey>
