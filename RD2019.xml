@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="6daf677a-d703-422e-a41a-feeb3627ca57" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="RD2019" DisplayName="Reto Demográfico 2019" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2019" CountryName="" DocLinksAsString="" Categories="RD 2019;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="6daf677a-d703-422e-a41a-feeb3627ca57" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="RD2019" DisplayName="Reto Demográfico 2019" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2019" CountryName="" DocLinksAsString="" Categories="RD 2019;Reto demográfico;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -196,5 +196,6 @@
   </SurveyDatasets>
   <Categories>
     <string>RD 2019</string>
+    <string>Reto demográfico</string>
   </Categories>
 </survey>
