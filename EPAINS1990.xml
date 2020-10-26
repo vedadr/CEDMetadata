@@ -69,7 +69,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="e489b5ac-6265-4a1e-8a17-42573864040b" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="EPAINS1990_001" displayName="EPAINS1990_001" title="Abandono temprano de la educaci&#243;n y la formaci&#243;n" titleWrapped="Abandono temprano de la educaci&#243;n y la formaci&#243;n" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAINS1990_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="EPAINS2020_001" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="e489b5ac-6265-4a1e-8a17-42573864040b" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="EPAINS1990_001" displayName="EPAINS1990_001" title="Abandono temprano de la educaci&#243;n y la formaci&#243;n" titleWrapped="Abandono temprano de la educaci&#243;n y la formaci&#243;n" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAINS1990_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Educaci&#243;n;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="EPAINS2020_001" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -77,7 +77,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="1b2155b2-fd27-4639-a79a-9c5e9131f818" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="EPAINS1990_002" displayName="EPAINS1990_002" title="Poblaci&#243;n con educaci&#243;n media o superior a los 25-29 a&#241;os" titleWrapped="Poblaci&#243;n con educaci&#243;n media o superior a los 25-29 a&#241;os" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="EPAINS1990_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="EPAINS2020_002" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="1b2155b2-fd27-4639-a79a-9c5e9131f818" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="EPAINS1990_002" displayName="EPAINS1990_002" title="Poblaci&#243;n con educaci&#243;n media o superior a los 25-29 a&#241;os" titleWrapped="Poblaci&#243;n con educaci&#243;n media o superior a los 25-29 a&#241;os" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="EPAINS1990_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Educaci&#243;n;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="EPAINS2020_002" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>

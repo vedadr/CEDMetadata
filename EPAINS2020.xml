@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="a98b1882-d97a-44d0-b95b-04da015ad5a2" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EPAINS2020" DisplayName="Nivel educativo 2020" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2020" CountryName="" DocLinksAsString="" Categories="Nivel educativo 2020;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="a98b1882-d97a-44d0-b95b-04da015ad5a2" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EPAINS2020" DisplayName="Nivel educativo 2020" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2020" CountryName="" DocLinksAsString="" Categories="Nivel educativo 2020;Educación;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -70,14 +70,14 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="bb66d67d-e323-400a-b062-48ec99d66da8" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="EPAINS2020_001" displayName="EPAINS2020_001" title="Abandono temprano de la educación y la formación" titleWrapped="Abandono temprano de la educación y la formación" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAINS2020_001" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="bb66d67d-e323-400a-b062-48ec99d66da8" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="EPAINS2020_001" displayName="EPAINS2020_001" title="Abandono temprano de la educación y la formación" titleWrapped="Abandono temprano de la educación y la formación" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Educación;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAINS2020_001" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
           </OutputFormat>
           <variable GUID="fe63dd3b-81ab-40a1-9199-dae76aba5aac" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2020_001_EPAINS_V1" label="Población de 18-24 años con máxime educación obligatoria que no están formándose" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
         </table>
-        <table GUID="7da421ab-b784-4d65-b2ea-ce26f97f2147" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="EPAINS2020_002" displayName="EPAINS2020_002" title="Población con educación media o superior a los 25-29 años" titleWrapped="Población con educación media o superior a los 25-29 años" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="EPAINS2020_002" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="7da421ab-b784-4d65-b2ea-ce26f97f2147" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="EPAINS2020_002" displayName="EPAINS2020_002" title="Población con educación media o superior a los 25-29 años" titleWrapped="Población con educación media o superior a los 25-29 años" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Educación;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="EPAINS2020_002" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
@@ -96,5 +96,6 @@
   </SurveyDatasets>
   <Categories>
     <string>Nivel educativo 2020</string>
+    <string>Educación</string>
   </Categories>
 </survey>
