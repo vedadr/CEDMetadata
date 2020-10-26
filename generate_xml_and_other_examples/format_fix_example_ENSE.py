@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'ENSE2016.xml','ENSE2015.xml','ENSE2014.xml','ENSE2013.xml','ENSE2012.xml','ENSE2011.xml','ENSE2010.xml','ENSE2009.xml','ENSE2008.xml','ENSE2007.xml','ENSE2006.xml','ENSE2005.xml','ENSE2004.xml','ENSE2003.xml'}
+    projects = {'PRE2017.xml','PRE2016.xml','PRE2015.xml','PRE2014.xml','PRE2013.xml','PRE2012.xml','PRE2011.xml','PRE2010.xml','PRE2009.xml','PRE2008.xml','PRE2007.xml','PRE2006.xml','PRE2005.xml'}
 
-    project_template = 'ENSE2017.xml'
+    project_template = 'PRE2018.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 

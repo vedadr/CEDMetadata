@@ -76,7 +76,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="76233e47-bbad-4372-b967-4280986fef4b" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PRE2006_001" displayName="PRE2006_001" title="Presupuestos municipales. Gastos " titleWrapped="Presupuestos municipales. Gastos " universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="PRE2006_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PRE2018_001" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="76233e47-bbad-4372-b967-4280986fef4b" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="PRE2006_001" displayName="PRE2006_001" title="Presupuestos municipales. Gastos " titleWrapped="Presupuestos municipales. Gastos " universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="PRE2006_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Presupuestos municipales;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="PRE2018_001" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
