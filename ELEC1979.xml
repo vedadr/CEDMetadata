@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="26831b87-c70f-40b7-83c7-b3744f74b409" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC1979" DisplayName="Elecciones Generales 1979" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1979" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 1979;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="26831b87-c70f-40b7-83c7-b3744f74b409" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC1979" DisplayName="Elecciones Generales 1979" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1979" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 1979;Elecciones generales;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -124,5 +124,6 @@
   </SurveyDatasets>
   <Categories>
     <string>Elecciones Generales 1979</string>
+    <string>Elecciones generales</string>
   </Categories>
 </survey>

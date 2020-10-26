@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="7f5f99ca-f6df-406c-8f84-66a49059507f" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC1982" DisplayName="Elecciones Generales 1982" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1982" CountryName="" DocLinksAsString="" Categories="Elecciones Geenrales 1982;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="7f5f99ca-f6df-406c-8f84-66a49059507f" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC1982" DisplayName="Elecciones Generales 1982" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1982" CountryName="" DocLinksAsString="" Categories="Elecciones Geenrales 1982;Elecciones generales;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -119,5 +119,6 @@
   </SurveyDatasets>
   <Categories>
     <string>Elecciones Geenrales 1982</string>
+    <string>Elecciones generales</string>
   </Categories>
 </survey>

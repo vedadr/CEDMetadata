@@ -23,7 +23,7 @@ def fix_title(doc, doc_to_fix):
 
     original_survey_year = original_survey[0].attrib['year']
 
-    # this assumes that survey naming is following convention prefix+survey year e.g. PRE2011,PC2018 etc.
+    # this assumes that survey naming is following convention prefix+survey year e.g. EVR2011,PC2018 etc.
     new_survey_year = survey_to_fix[0].attrib['name'][-4:]
 
     for fix, index in fix_scope_variables.items():
@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'TCN2017.xml','TCN2016.xml', 'TCN2015.xml', 'TCN2014.xml', 'TCN2013.xml', 'TCN2012.xml', 'TCN2010.xml', 'TCN2009.xml', 'TCN2008.xml', 'TCN2007.xml', 'TCN2006.xml','TCN2005.xml','TCN2003.xml'}
+    projects = {'VIV2018.xml','VIV2017.xml','VIV2016.xml','VIV2015.xml','VIV2014.xml','VIV2013.xml','VIV2012.xml','VIV2011.xml','VIV2010.xml','VIV2009.xml','VIV2008.xml','VIV2007.xml','VIV2006.xml'}
 
-    project_template = 'TCN2011.xml'
+    project_template = 'VIV2019.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
