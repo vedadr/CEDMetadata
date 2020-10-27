@@ -1,0 +1,67 @@
+<survey GUID="ab56f9aa-5adc-4c22-887e-3635c986c9d8" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="CED" DisplayName="CED" year="2019" Categories="">
+  <Description><![CDATA[]]></Description>
+  <notes><![CDATA[]]></notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <documentation Label="Documentation">
+    <documentlinks/>
+  </documentation>
+  <geoTypes>
+    <geoType GUID="034fbe8c-0dbf-4d0c-a14d-1dbe6e3aa594" Name="SL010" Label="Nation" QLabel="Nation" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Nations" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="Nation" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="9b8b614f-1664-4479-b74b-b9d143e58ad4" Name="SL040" Label="Province" QLabel="Province" RelevantGeoIDs="FIPS,NAME,QName,NATION,PROVINCE,MUNICIPALITY,CT,REGION" PluralName="Provinces" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="1" Sumlev="040" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="Province" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="44f32e9a-2d5f-439f-8461-84ddd9975c9e" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="Geographic Summary Count" Visible="false" abbreviation="Geo" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo/>
+    <notes/>
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets/>
+    <iterations/>
+    <tables>
+      <table GUID="6fc66e0a-97fe-45c7-8deb-69d9fbbed5a5" VariablesAreExclusive="false" notes="" PrivateNotes="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns/>
+        </OutputFormat>
+        <variable GUID="720cf5ac-2374-4f92-a26a-698f9a4945ba" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="Nation" label="Nation" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="487c992d-0bb0-41b1-b932-09b7e0f827ed" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="Province" label="Province" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="06c92c4b-ba91-4fbd-b7b5-92930f71bb26" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="false" abbreviation="SE" name="Social Explorer Tables" DisplayName="Social Explorer Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets/>
+      <iterations/>
+      <tables>
+        <!--Insert SE tables here !!!-->
+      </tables>
+    </SurveyDataset>
+    <SurveyDataset GUID="be458166-05ed-4a5d-bbdc-304953ecdb7e" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="true" abbreviation="ORG" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets/>
+      <iterations/>
+      <tables>
+        <table GUID="59b4eff9-1664-4ce1-abd0-1a901926a849" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="T001" displayName="T001" title="Total Population" titleWrapped="Total Population" universe="none" Visible="true" TreeNodeCollapsed="true" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="T001" uniqueTableId="T001">
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns/>
+          </OutputFormat>
+          <variable GUID="da193a45-f91b-4ff5-b0ab-84f795675caf" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_001" label="Total Population" qLabel="" indent="0" dataType="5" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="3b2703d3-88e2-4aa9-a31d-da4b4df85777" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_002" label="Male" qLabel="" indent="1" dataType="5" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+          <variable GUID="a153966c-a0ac-4471-b7ab-1a50c3f95d33" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="T001_003" label="Female" qLabel="" indent="1" dataType="5" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add"/>
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>CED</string>
+  </Categories>
+</survey>

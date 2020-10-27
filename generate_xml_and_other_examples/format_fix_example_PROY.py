@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'PROY2032.xml', 'PROY2031.xml','PROY2030.xml', 'PROY2029.xml','PROY2028.xml', 'PROY2027.xml','PROY2026.xml', 'PROY2025.xml', 'PROY2024.xml', 'PROY2023.xml', 'PROY2022.xml', 'PROY2021.xml', 'PROY2020.xml', 'PROY2019.xml', 'PROY2018.xml'}
+    projects = {'PROY2034.xml','PROY2033.xml','PROY2032.xml', 'PROY2031.xml','PROY2030.xml', 'PROY2029.xml','PROY2028.xml', 'PROY2027.xml','PROY2026.xml', 'PROY2025.xml', 'PROY2024.xml', 'PROY2023.xml', 'PROY2022.xml', 'PROY2021.xml', 'PROY2020.xml'}
 
-    project_template = 'PROY2033.xml'
+    project_template = 'PROY2035.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
