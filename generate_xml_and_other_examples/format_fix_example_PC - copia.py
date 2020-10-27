@@ -23,7 +23,7 @@ def fix_title(doc, doc_to_fix):
 
     original_survey_year = original_survey[0].attrib['year']
 
-    # this assumes that survey naming is following convention ENSEfix+survey year e.g. EVR2011,PC2018 etc.
+    # this assumes that survey naming is following convention prefix+survey year e.g. EVR2011,PC2018 etc.
     new_survey_year = survey_to_fix[0].attrib['name'][-4:]
 
     for fix, index in fix_scope_variables.items():
@@ -180,14 +180,14 @@ def main(template_file, file_to_fix):
     doc_to_fix = fix_variables(doc, doc_to_fix)
 
     print('Writing doc ...')
-    doc_to_fix.write(file_to_fix, ENSEtty_print=True)
+    doc_to_fix.write(file_to_fix, pretty_print=True)
 
 
 if __name__ == '__main__':
 
-    projects = {'ENSE2016.xml','ENSE2015.xml','ENSE2014.xml','ENSE2013.xml','ENSE2012.xml','ENSE2011.xml','ENSE2010.xml','ENSE2009.xml','ENSE2008.xml','ENSE2007.xml','ENSE2006.xml','ENSE2005.xml'}
+    projects = {'PC2019.xml','PC2017.xml','PC2016.xml','PC2015.xml','PC2014.xml','PC2014.xml','PC2013.xml','PC2012.xml','PC2011.xml','PC2010.xml','PC2009.xml','PC2008.xml','PC2007.xml','PC2006.xml','PC2005.xml'}
 
-    project_template = 'ENSE2017.xml'
+    project_template = 'PC2018.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
