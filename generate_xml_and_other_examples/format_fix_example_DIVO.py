@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'DIVO2018.xml','DIVO2016.xml','DIVO2015.xml','DIVO2014.xml','DIVO2013.xml','DIVO2012.xml','DIVO2011.xml','DIVO2010.xml','DIVO2009.xml','DIVO2008.xml','DIVO2007.xml','DIVO2006.xml'}
+    projects = {'DIVO2017.xml','DIVO2016.xml','DIVO2015.xml','DIVO2014.xml','DIVO2013.xml','DIVO2012.xml','DIVO2011.xml','DIVO2010.xml','DIVO2009.xml','DIVO2008.xml','DIVO2007.xml','DIVO2006.xml'}
 
-    project_template = 'DIVO2017.xml'
+    project_template = 'DIVO2018.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 

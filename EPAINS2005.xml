@@ -73,7 +73,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="083067f7-7cb2-4a66-8be5-f91002abd29f" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2005_001_EPAINS_V1" label="Poblaci&#243;n de 18-24 a&#241;os con m&#225;xime educaci&#243;n obligatoria que no est&#225;n form&#225;ndose" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="083067f7-7cb2-4a66-8be5-f91002abd29f" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2005_001_EPAINS_V1" label="Poblaci&#243;n de 18-24 a&#241;os con m&#225;xime educaci&#243;n obligatoria que no est&#225;n form&#225;ndose" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="DECIL_SPAIN" PN="" PT=""/>
         </table>
       </tables>
       <tables>
@@ -81,7 +81,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="7ef3adbd-88cb-4623-9a76-a8441cf2467d" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2005_002_EPAINS_V2" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n media o superior" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="7ef3adbd-88cb-4623-9a76-a8441cf2467d" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2005_002_EPAINS_V2" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n media o superior" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="DECIL_SPAIN" PN="" PT=""/>
         </table>
       </tables>
       <tables>
@@ -89,7 +89,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="104e46f2-99da-4a92-a5c8-e35a9b86c4c3" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2005_003_EPAINS_V3" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n universitaria" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="104e46f2-99da-4a92-a5c8-e35a9b86c4c3" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2005_003_EPAINS_V3" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n universitaria" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="DECIL_SPAIN" PN="" PT=""/>
         </table>
       </tables>
     </SurveyDataset>
