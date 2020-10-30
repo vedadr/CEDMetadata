@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'SSOC2018.xml', 'SSOC2017.xml', 'SSOC2016.xml', 'SSOC2015.xml', 'SSOC2014.xml', 'SSOC2013.xml', 'SSOC2012.xml', 'SSOC2010.xml', 'SSOC2009.xml'}
+    projects = {'SSOC2011.xml', 'SSOC2017.xml', 'SSOC2016.xml', 'SSOC2015.xml', 'SSOC2014.xml', 'SSOC2013.xml', 'SSOC2012.xml', 'SSOC2010.xml', 'SSOC2009.xml'}
 
-    project_template = 'SSOC2011.xml'
+    project_template = 'SSOC2018.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 

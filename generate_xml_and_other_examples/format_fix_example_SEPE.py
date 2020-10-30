@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'SEPE2019.xml','SEPE2017.xml','SEPE2016.xml','SEPE2015.xml','SEPE2014.xml','SEPE2013.xml','SEPE2012.xml','SEPE2010.xml','SEPE2009.xml','SEPE2008.xml','SEPE2007.xml','SEPE2006.xml'}
+    projects = {'SEPE2019.xml','SEPE2011.xml','SEPE2017.xml','SEPE2016.xml','SEPE2015.xml','SEPE2014.xml','SEPE2013.xml','SEPE2012.xml','SEPE2010.xml','SEPE2009.xml','SEPE2008.xml','SEPE2007.xml','SEPE2006.xml'}
 
-    project_template = 'SEPE2011.xml'
+    project_template = 'SEPE2018.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
