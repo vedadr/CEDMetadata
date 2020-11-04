@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="27b7adeb-491f-492f-b255-13c3a0bcccff" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC1977" DisplayName="Elecciones Generales 1977" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1977" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 1977;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="27b7adeb-491f-492f-b255-13c3a0bcccff" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC1977" DisplayName="Elecciones Generales 1977" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1977" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 1977;Elecciones generales;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -86,8 +86,8 @@
           <variable GUID="6839bd63-8c55-47ee-804a-84d10c01172d" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELEC1977_001_ELEC_V2" label="Votos emitidos" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
           <variable GUID="0c42fb41-06ea-4765-a6a5-771a97f9050a" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELEC1977_001_ELEC_V3" label="Votos válidos" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
         </table>
-        <table GUID="139fc2fa-76ef-462f-bcd0-65292ee6e6be" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELEC1977_002" displayName="ELEC1977_002" title="Partido más votado. 15 de junio 1977" titleWrapped="Partido más votado. 15 de junio 1977" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Elecciones generales;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="ELEC1977_002" source="" DefaultColumnCaption="" samplingInfo="">
-          <mVisibleInMaps>true</mVisibleInMaps>
+        <table GUID="139fc2fa-76ef-462f-bcd0-65292ee6e6be" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELEC1977_002" displayName="ELEC1977_002" title="Partido más votado. 15 de junio 1977" titleWrapped="Partido más votado. 15 de junio 1977" titleShort="" universe="none" Visible="true" VisibleInMaps="false" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Elecciones generales;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="ELEC1977_002" source="" DefaultColumnCaption="" samplingInfo="">
+          <mVisibleInMaps>false</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
           </OutputFormat>
@@ -122,5 +122,6 @@
   </SurveyDatasets>
   <Categories>
     <string>Elecciones Generales 1977</string>
+    <string>Elecciones generales</string>
   </Categories>
 </survey>
