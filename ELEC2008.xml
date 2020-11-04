@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="ebd81b16-763b-4b2c-9e7b-3b2d69f14a15" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2008" DisplayName="Elecciones Generales 2008" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2008" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 2008;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="ebd81b16-763b-4b2c-9e7b-3b2d69f14a15" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELEC2008" DisplayName="Elecciones Generales 2008" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2008" CountryName="" DocLinksAsString="" Categories="Elecciones Generales 2008;Elecciones generales;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -86,8 +86,8 @@
           <variable GUID="02db9569-6d3c-44ba-8745-396deef761a5" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELEC2008_001_ELEC_V2" label="Votos emitidos" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
           <variable GUID="1d944db5-bfdd-422f-9f0c-70e9cb120463" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELEC2008_001_ELEC_V3" label="Votos válidos" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
         </table>
-        <table GUID="8aadc13b-99f2-4312-9738-3ba28ca7a41d" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELEC2008_002" displayName="ELEC2008_002" title="Partido más votado. 9 de marzo 2008" titleWrapped="Partido más votado. 9 de marzo 2008" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Elecciones generales;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="ELEC2008_002" source="" DefaultColumnCaption="" samplingInfo="">
-          <mVisibleInMaps>true</mVisibleInMaps>
+        <table GUID="8aadc13b-99f2-4312-9738-3ba28ca7a41d" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELEC2008_002" displayName="ELEC2008_002" title="Partido más votado. 9 de marzo 2008" titleWrapped="Partido más votado. 9 de marzo 2008" titleShort="" universe="none" Visible="true" VisibleInMaps="false" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Elecciones generales;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="ELEC2008_002" source="" DefaultColumnCaption="" samplingInfo="">
+          <mVisibleInMaps>false</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
           </OutputFormat>
@@ -119,5 +119,6 @@
   </SurveyDatasets>
   <Categories>
     <string>Elecciones Generales 2008</string>
+    <string>Elecciones generales</string>
   </Categories>
 </survey>
