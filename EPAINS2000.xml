@@ -73,7 +73,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="8bff2405-5047-41d2-918a-ded7011d2da6" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2000_001_EPAINS_V1" label="Poblaci&#243;n de 18-24 a&#241;os con m&#225;xime educaci&#243;n obligatoria que no est&#225;n form&#225;ndose" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="DECIL_SPAIN" PN="" PT=""/>
+          <variable GUID="8bff2405-5047-41d2-918a-ded7011d2da6" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2000_001_EPAINS_V1" label="Poblaci&#243;n de 18-24 a&#241;os con m&#225;xime educaci&#243;n obligatoria que no est&#225;n form&#225;ndose" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="CED_060" PN="" PT=""/>
         </table>
       </tables>
       <tables>
@@ -81,7 +81,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="bc4b42e4-a1bc-40c4-8b16-499d9e275758" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2000_002_EPAINS_V2" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n media o superior" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="DECIL_SPAIN" PN="" PT=""/>
+          <variable GUID="bc4b42e4-a1bc-40c4-8b16-499d9e275758" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2000_002_EPAINS_V2" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n media o superior" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="CED_060" PN="" PT=""/>
         </table>
       </tables>
       <tables>
@@ -89,7 +89,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
-          <variable GUID="d63ce3b1-74d6-4a8e-8796-977143c033db" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2000_003_EPAINS_V3" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n universitaria" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="DECIL_SPAIN" PN="" PT=""/>
+          <variable GUID="d63ce3b1-74d6-4a8e-8796-977143c033db" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="EPAINS2000_003_EPAINS_V3" label="Poblaci&#243;n de 25-29 a&#241;os con educaci&#243;n universitaria" qLabel="" indent="1" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" AggregationStr="Rate|||100000" BubbleSizeHint="1" FR="CED_060" PN="" PT=""/>
         </table>
       </tables>
     </SurveyDataset>
