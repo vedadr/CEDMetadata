@@ -76,7 +76,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="fc9fa875-4624-4b8e-8df4-f8b848139131" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SSOC2010_001" displayName="SSOC2010_001" title="Empleados cotizantes por r&#233;gimen de cotizaci&#243;n" titleWrapped="Empleados cotizantes por r&#233;gimen de cotizaci&#243;n" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="SSOC2010_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SSOC2018_001" DefaultColumnCaption="SSOC2011_001" samplingInfo="">
+        <table GUID="fc9fa875-4624-4b8e-8df4-f8b848139131" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SSOC2010_001" displayName="SSOC2010_001" title="Empleados cotizantes por r&#233;gimen de cotizaci&#243;n" titleWrapped="Empleados cotizantes por r&#233;gimen de cotizaci&#243;n" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="SSOC2010_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Empleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SSOC2018_001" DefaultColumnCaption="SSOC2011_001" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -90,7 +90,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="212760a9-61a8-4feb-98c6-8c9d56d6ae4c" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SSOC2010_002" displayName="SSOC2010_002" title="Empleados cotizantes por 100 habitantes en edad activa" titleWrapped="Empleados cotizantes por 100 habitantes en edad activa" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="SSOC2010_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SSOC2018_002" DefaultColumnCaption="SSOC2011_002" samplingInfo="">
+        <table GUID="212760a9-61a8-4feb-98c6-8c9d56d6ae4c" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SSOC2010_002" displayName="SSOC2010_002" title="Empleados cotizantes por 100 habitantes en edad activa" titleWrapped="Empleados cotizantes por 100 habitantes en edad activa" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="SSOC2010_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SSOC2018_002" DefaultColumnCaption="SSOC2011_002" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>

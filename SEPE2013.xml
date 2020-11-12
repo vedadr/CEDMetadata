@@ -76,7 +76,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="78045eba-481e-4788-88c2-8f5ed6aaa705" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_001" displayName="SEPE2013_001" title="Paro registrado por sexo (media anual)" titleWrapped="Paro registrado por sexo (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="SEPE2013_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_001" DefaultColumnCaption="SEPE2018_001" samplingInfo="">
+        <table GUID="78045eba-481e-4788-88c2-8f5ed6aaa705" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_001" displayName="SEPE2013_001" title="Paro registrado por sexo (media anual)" titleWrapped="Paro registrado por sexo (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="SEPE2013_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_001" DefaultColumnCaption="SEPE2018_001" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -86,7 +86,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="9114a889-426b-45c2-a355-68f91789caaa" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_002" displayName="SEPE2013_002" title="Paro registrado por sexo y grupo de edad (media anual)" titleWrapped="Paro registrado por sexo y grupo de edad (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="SEPE2013_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_002" DefaultColumnCaption="SEPE2018_002" samplingInfo="">
+        <table GUID="9114a889-426b-45c2-a355-68f91789caaa" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_002" displayName="SEPE2013_002" title="Paro registrado por sexo y grupo de edad (media anual)" titleWrapped="Paro registrado por sexo y grupo de edad (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="SEPE2013_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_002" DefaultColumnCaption="SEPE2018_002" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -105,7 +105,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="affc6178-b414-48d1-b22e-bca1adf466ca" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_003" displayName="SEPE2013_003" title="Paro registrado por sector de actividad econ&#243;mica (media anual)" titleWrapped="Paro registrado por sector de actividad econ&#243;mica (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="SEPE2013_003" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_003" DefaultColumnCaption="SEPE2018_003" samplingInfo="">
+        <table GUID="affc6178-b414-48d1-b22e-bca1adf466ca" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_003" displayName="SEPE2013_003" title="Paro registrado por sector de actividad econ&#243;mica (media anual)" titleWrapped="Paro registrado por sector de actividad econ&#243;mica (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="003" uniqueTableId="SEPE2013_003" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_003" DefaultColumnCaption="SEPE2018_003" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -118,7 +118,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="c62f5b63-0820-48f8-acc2-52c3ed35a928" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_004" displayName="SEPE2013_004" title="Tasa de paro registrado de poblaci&#243;n potencialmente activa seg&#250;n sexo y grupo de edad (media anual)" titleWrapped="Tasa de paro registrado de poblaci&#243;n potencialmente activa seg&#250;n sexo y grupo de edad (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="SEPE2013_004" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_004" DefaultColumnCaption="SEPE2018_004" samplingInfo="">
+        <table GUID="c62f5b63-0820-48f8-acc2-52c3ed35a928" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_004" displayName="SEPE2013_004" title="Tasa de paro registrado de poblaci&#243;n potencialmente activa seg&#250;n sexo y grupo de edad (media anual)" titleWrapped="Tasa de paro registrado de poblaci&#243;n potencialmente activa seg&#250;n sexo y grupo de edad (media anual)" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="SEPE2013_004" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_004" DefaultColumnCaption="SEPE2018_004" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -137,7 +137,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="49b793f5-20f8-4de9-9da4-ac1aa74b557f" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_005" displayName="SEPE2013_005" title="Contratos registrado por sexo " titleWrapped="Contratos registrado por sexo " universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="SEPE2013_005" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_005" DefaultColumnCaption="SEPE2018_005" samplingInfo="">
+        <table GUID="49b793f5-20f8-4de9-9da4-ac1aa74b557f" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_005" displayName="SEPE2013_005" title="Contratos registrado por sexo " titleWrapped="Contratos registrado por sexo " universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="SEPE2013_005" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_005" DefaultColumnCaption="SEPE2018_005" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -147,7 +147,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="1627a2a4-f88e-476a-81eb-cce5805d9cc9" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_006" displayName="SEPE2013_006" title="Contratos registrados por tipo de contrato" titleWrapped="Contratos registrados por tipo de contrato" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="006" uniqueTableId="SEPE2013_006" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_006" DefaultColumnCaption="SEPE2018_006" samplingInfo="">
+        <table GUID="1627a2a4-f88e-476a-81eb-cce5805d9cc9" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_006" displayName="SEPE2013_006" title="Contratos registrados por tipo de contrato" titleWrapped="Contratos registrados por tipo de contrato" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="006" uniqueTableId="SEPE2013_006" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_006" DefaultColumnCaption="SEPE2018_006" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -158,7 +158,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="1b299cdd-1d07-44d4-bfce-7cf753f1fa10" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_007" displayName="SEPE2013_007" title="Contratos registrado por sexo y tipo de contrato" titleWrapped="Contratos registrado por sexo y tipo de contrato" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="007" uniqueTableId="SEPE2013_007" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_007" DefaultColumnCaption="SEPE2018_007" samplingInfo="">
+        <table GUID="1b299cdd-1d07-44d4-bfce-7cf753f1fa10" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_007" displayName="SEPE2013_007" title="Contratos registrado por sexo y tipo de contrato" titleWrapped="Contratos registrado por sexo y tipo de contrato" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="007" uniqueTableId="SEPE2013_007" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_007" DefaultColumnCaption="SEPE2018_007" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -173,7 +173,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="b3895190-26b3-4297-9e74-a4bab6421d34" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_008" displayName="SEPE2013_008" title="Contratos registrados por sector de actividad econ&#243;mica" titleWrapped="Contratos registrados por sector de actividad econ&#243;mica" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="008" uniqueTableId="SEPE2013_008" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_008" DefaultColumnCaption="SEPE2018_008" samplingInfo="">
+        <table GUID="b3895190-26b3-4297-9e74-a4bab6421d34" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="SEPE2013_008" displayName="SEPE2013_008" title="Contratos registrados por sector de actividad econ&#243;mica" titleWrapped="Contratos registrados por sector de actividad econ&#243;mica" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="008" uniqueTableId="SEPE2013_008" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad econ&#243;mica;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="SEPE2018_008" DefaultColumnCaption="SEPE2018_008" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
