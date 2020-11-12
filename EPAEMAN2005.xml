@@ -69,7 +69,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="6a169ad3-5013-4555-b2f8-3572c2a2e429" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="EPAEMAN2005_001" displayName="EPAEMAN2005_001" title="Emancipaci&#243;n juvenil seg&#250;n grupo de edad" titleWrapped="Emancipaci&#243;n juvenil seg&#250;n grupo de edad" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAEMAN2005_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Juventud;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="EPAEMAN2020_001" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="6a169ad3-5013-4555-b2f8-3572c2a2e429" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="EPAEMAN2005_001" displayName="EPAEMAN2005_001" title="Emancipaci&#243;n juvenil seg&#250;n grupo de edad" titleWrapped="Emancipaci&#243;n juvenil seg&#250;n grupo de edad" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAEMAN2005_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Juventud;Hogares;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="EPAEMAN2020_001" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>

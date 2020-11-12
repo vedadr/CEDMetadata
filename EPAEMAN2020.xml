@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="736d9b5f-bfec-40e0-a32a-a13b2d2b8d77" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EPAEMAN2020" DisplayName="Emancipacion 2020" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2020" CountryName="" DocLinksAsString="" Categories="Emancipacion 2020;Juventud;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="736d9b5f-bfec-40e0-a32a-a13b2d2b8d77" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EPAEMAN2020" DisplayName="Emancipacion 2020" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2020" CountryName="" DocLinksAsString="" Categories="Emancipacion 2020;Juventud;Hogares;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -70,7 +70,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="a6dee492-b3fa-4a14-95ab-7c020139b523" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="EPAEMAN2020_001" displayName="EPAEMAN2020_001" title="Emancipación juvenil según grupo de edad" titleWrapped="Emancipación juvenil según grupo de edad" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Juventud;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAEMAN2020_001" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="a6dee492-b3fa-4a14-95ab-7c020139b523" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="EPAEMAN2020_001" displayName="EPAEMAN2020_001" title="Emancipación juvenil según grupo de edad" titleWrapped="Emancipación juvenil según grupo de edad" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Juventud;Hogares;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="EPAEMAN2020_001" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
@@ -86,5 +86,6 @@
   <Categories>
     <string>Emancipacion 2020</string>
     <string>Juventud</string>
+    <string>Hogares</string>
   </Categories>
 </survey>
