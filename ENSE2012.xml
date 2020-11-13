@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="8c8bbdae-5cb4-4016-b0ef-f17d6caf82ad" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ENSE2012" DisplayName="Enseñanza 2012" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2012" CountryName="" DocLinksAsString="" Categories="ensenanza 2012;Educación;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="8c8bbdae-5cb4-4016-b0ef-f17d6caf82ad" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ENSE2012" DisplayName="Estadística de enseñanzas no universitarias 2012" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2012" CountryName="" DocLinksAsString="" Categories="ensenanza 2012;Educación;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>

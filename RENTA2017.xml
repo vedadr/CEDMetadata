@@ -1,4 +1,4 @@
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="2bf43a3e-a28d-4758-8ebb-95d431878e82" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="RENTA2017" DisplayName="Renta 2017" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2017" CountryName="" DocLinksAsString="" Categories="Renta 2017;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="2bf43a3e-a28d-4758-8ebb-95d431878e82" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="RENTA2017" DisplayName="Atlas de distribuci&#243;n de renta de los hogares 2017" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2017" CountryName="" DocLinksAsString="" Categories="Renta 2017;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
