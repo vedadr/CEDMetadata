@@ -1,4 +1,4 @@
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="756d5689-8695-4eb0-981c-09dbec938495" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EMP2018" DisplayName="Empresas por Actividad 2018" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Empresas por actividad 2018;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="756d5689-8695-4eb0-981c-09dbec938495" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="EMP2018" DisplayName="Estad&#237;stica del Directorio Central de Empresas 2018" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Empresas por actividad 2018;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
