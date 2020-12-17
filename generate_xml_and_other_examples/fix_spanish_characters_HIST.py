@@ -21,13 +21,13 @@ def main():
     # set this to true if you want to fix characters in all projects
     fix_all_projects = False
 
-    path = Path(r'C:\Users\jgarcia\Documents\CEDMetadata')  # r'C:\Projects\CEDMetadata')
+    path = Path(r'L:\data\CH\CH1940\configs')  # r'C:\Projects\CEDMetadata')
 
     if fix_all_projects:
         project_list = [project.name for project in path.iterdir() if project.name.endswith('.xml')]
     else:
         # in case you don't want all projects to be checked, you can create a list of selected projects for fixing
-        project_list = {'ENSE2005.xml','ENSE2004.xml','ENSE2003.xml','ENSE2016.xml','ENSE2015.xml','ENSE2014.xml','ENSE2013.xml','ENSE2012.xml',,'ENSE2011.xml','ENSE2010.xml','ENSE2009.xml','ENSE2008.xml','ENSE2007.xml','ENSE2006.xml','ENSE2017.xml'}
+        project_list = {'all_geotypes_and_sumlev.csv'}
 
     chars_to_replace = {'Ã³': 'ó', 'Ã¡': 'á', 'Ã±': 'ñ', 'Ãº': 'ú', 'Ã©': 'é'}
 
