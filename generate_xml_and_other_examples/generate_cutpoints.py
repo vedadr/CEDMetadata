@@ -6,11 +6,11 @@ from lxml.builder import ElementMaker
 from lxml import etree as et
 
 
-def calculate_brackets(data):
+def calculate_brackets(data, number_of_classes):
     breaks = {}
     for variable_name, values in data.iteritems():
         try:
-            breaks[variable_name] = jenkspy.jenks_breaks(values, nb_class=11)
+            breaks[variable_name] = jenkspy.jenks_breaks(values, nb_class=number_of_classes)
         except ValueError as e:
             logger.warning(f'Cannot create a cupoint file for variable {variable_name}, error: {e}')
             continue
@@ -69,12 +69,13 @@ def generate_cutpoints_for_dataset():
     path_to_preprocessed_files = Path(r'C:\projects\COVID-19\csse_covid_19_data\csse_covid_19_daily_reports')
     output_location = '.'
     project_id = 'ELEC2019'
+    number_of_classes = 11
     #########################################################
 
     for file in path_to_preprocessed_files.glob('*.csv'):
         file_content = pd.read_csv(str(file)).dropna()
 
-        brackets = calculate_brackets(file_content)
+        brackets = calculate_brackets(file_content, number_of_classes)
         generate_xml_with_cutpoints(brackets, output_location, project_id)
 
 
