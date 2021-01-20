@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="01563a0f-378c-4088-817d-07a271fbe679" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="SEPE2018" DisplayName="Servicio Público de Empleo Estatal 2018" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Empleo y desempleo;;Actividad económica;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="01563a0f-378c-4088-817d-07a271fbe679" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="SEPE2018" DisplayName="Servicio Público de Empleo Estatal 2018" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Empleo y desempleo;Actividad económica;;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -116,7 +116,7 @@
           <variable GUID="04d503bf-8f58-4518-981b-9b2951005231" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SEPE2018_003_SEPE_V29" label="Servicios" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="DECIL_SPAIN" AggregationStr="Add" BubbleSizeHint="1" />
           <variable GUID="83c64f2a-88e7-4b57-a65f-8ab2c04bc6a1" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="SEPE2018_003_SEPE_V30" label="Sin empleo anterior" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="DECIL_SPAIN" AggregationStr="Add" BubbleSizeHint="1" />
         </table>
-        <table GUID="d34a961e-4949-4206-a5a7-5d827707b412" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="SEPE2018_004" displayName="SEPE2018_004" title="Tasa de paro registrado de población potencialmente activa según sexo y grupo de edad (media anual)" titleWrapped="Tasa de paro registrado de población potencialmente activa según sexo y grupo de edad (media anual)" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad económica;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="SEPE2018_004" source="SEPE2018_004" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="d34a961e-4949-4206-a5a7-5d827707b412" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="SEPE2018_004" displayName="SEPE2018_004" title="Porcentaje de población en paro registrado según sexo y grupo de edad (media anual)" titleWrapped="Porcentaje de población en paro registrado según sexo y grupo de edad (media anual)" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Empleo y desempleo;Actividad económica;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="004" uniqueTableId="SEPE2018_004" source="SEPE2018_004" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
@@ -183,7 +183,7 @@
   </SurveyDatasets>
   <Categories>
     <string>Empleo y desempleo</string>
-    <string />
     <string>Actividad económica</string>
+    <string />
   </Categories>
 </survey>
