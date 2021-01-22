@@ -189,7 +189,7 @@ if __name__ == '__main__':
 
     project_template = 'ECH2019.xml'
 
-    working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
+    working_dir = r'C:\Users\aturu\CEDMetadata'
 
     for project in projects:
         print(f'Editing {project}')
