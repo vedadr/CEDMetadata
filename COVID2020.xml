@@ -70,7 +70,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="4ab9db9f-02cd-4d58-8bd2-663e78dc29d0" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="COVID2020_001" displayName="COVID2020_001" title="Defunciones según la causa de muerte" titleWrapped="Defunciones según la causa de muerte" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="COVID2020_001" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="4ab9db9f-02cd-4d58-8bd2-663e78dc29d0" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="COVID2020_001" displayName="COVID2020_001" title="Defunciones según la causa de muerte" titleWrapped="Defunciones según la causa de muerte" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="Covid-19;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="COVID2020_001" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
