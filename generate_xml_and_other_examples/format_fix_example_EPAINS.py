@@ -185,11 +185,11 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'EPAINS2015.xml', 'EPAINS2010.xml', 'EPAINS2005.xml', 'EPAINS2000.xml', 'EPAINS1995.xml', 'EPAINS1990.xml'}
+    projects = {'EPAINS2020.xml', 'EPAINS2010.xml', 'EPAINS2005.xml', 'EPAINS2000.xml', 'EPAINS1995.xml', 'EPAINS1990.xml'}
 
-    project_template = 'EPAINS2020.xml'
+    project_template = 'EPAINS2015.xml'
 
-    working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
+    working_dir = r'C:\Users\aturu\CEDMetadata'
 
     for project in projects:
         print(f'Editing {project}')
