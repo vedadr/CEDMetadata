@@ -185,7 +185,7 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'PC2004.xml','PC2005.xml','PC2006.xml','PC2007.xml'}
+    projects = {'PC2003.xml','PC2004.xml','PC2005.xml','PC2006.xml','PC2007.xml'}
 
     project_template = 'PC2018.xml'
 
