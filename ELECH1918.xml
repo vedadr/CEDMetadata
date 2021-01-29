@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="464f3c7c-c9a8-47a4-8216-f5a9ca328af7" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELECH1918" DisplayName="Elecciones 1918" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1918" CountryName="" DocLinksAsString="" Categories="Elecciones 1918;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="464f3c7c-c9a8-47a4-8216-f5a9ca328af7" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELECH1918" DisplayName="Elecciones a las Cortes Generales 1918" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1918" CountryName="" DocLinksAsString="" Categories="Elecciones 1918;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
