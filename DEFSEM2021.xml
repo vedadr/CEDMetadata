@@ -1,0 +1,95 @@
+<survey GUID="954774da-fa86-4a0a-8545-7fd55c8aee15" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="DEFSEM2021" DisplayName="Defunciones semanales 2021" year="2021" Categories="">
+  <Description><![CDATA[]]></Description>
+  <notes><![CDATA[]]></notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <documentation Label="Documentation">
+    <documentlinks/>
+  </documentation>
+  <geoTypes>
+    <geoType GUID="d1daea8c-8206-4fdf-985f-3a126b387348" Name="SL010" Label="TOTAL" QLabel="TOTAL" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA" PluralName="TOTAL" fullCoverage="true" majorGeo="true" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="TOTAL" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="a8f8bd4f-fcba-4f01-9d8f-38a158ff6862" Name="SL030" Label="CCAA" QLabel="CCAA" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA" PluralName="CCAA" fullCoverage="true" majorGeo="true" Indent="1" Sumlev="030" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CCAA" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType GUID="f500a5ed-e5f8-4407-9bbe-8188d3b564e6" Name="SL040" Label="PROVINCIA" QLabel="PROVINCIA" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA" PluralName="PROVINCIA" fullCoverage="true" majorGeo="true" Indent="2" Sumlev="040" FipsCodeLength="6" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="PROVINCIA" FipsCodePartialLength="2">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="89464d25-dffe-4d5b-a387-5bb785c091f6" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="Geographic Summary Count" Visible="false" abbreviation="Geo" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo/>
+    <notes/>
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets>
+      <dataset GUID="ec1350ee-633b-49ee-ba55-14c1b7f2a407" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL010_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+      <dataset GUID="a32186b3-1af6-4962-8a08-cff0e4b66b52" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL030_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+      <dataset GUID="146fcce0-490e-442c-b648-a0c1270ad558" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL040_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+    </datasets>
+    <iterations/>
+    <tables>
+      <table GUID="785584b4-87f0-4bcf-ad2a-bdd53bda84a2" VariablesAreExclusive="false" notes="" PrivateNotes="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns/>
+        </OutputFormat>
+        <variable GUID="96a45bd3-f6cd-47d5-9e09-4267668bc1a5" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="QNAME" label="Qualifying Name" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="462bb8ae-cc00-49ca-82d0-ca67af49fe9a" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NAME" label="Name of Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="641e8900-6000-4e54-ab27-565cccf89174" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FIPS" label="FIPS" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="3d19bf36-00ac-470c-930b-d7ce2e6da335" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TOTAL" label="TOTAL" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="ccacfa27-54da-48c7-9cec-189d6dcaaa85" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CCAA" label="CCAA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+        <variable GUID="5254d5f2-d6f3-4426-a299-952dceecb563" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PROVINCIA" label="PROVINCIA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" AggregationStr="None"/>
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="479f5ab3-b954-4dfc-bba2-3e6376d54d6d" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="false" abbreviation="SE" name="CED Tables" DisplayName="CED Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="1f61e1fe-7029-4545-bd8b-e1e026358c51" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL010_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+        <dataset GUID="ec6be3c3-fa81-4bc7-9aab-67a086eb35f6" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL030_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+        <dataset GUID="f24e6203-acc5-4b48-b6f3-7031b41bbf62" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL040_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+      </datasets>
+      <iterations/>
+      <tables>
+        <!--Insert SE tables here !!!-->
+      </tables>
+    </SurveyDataset>
+    <SurveyDataset GUID="98896d89-28ee-41f7-b4e2-7780951eb272" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" Description="" Visible="true" abbreviation="ORG" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo/>
+      <notes/>
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="8c8352b7-0c00-4594-9020-702b27a90f57" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL010_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1"/>
+        <dataset GUID="b0d45580-62a9-4325-9d19-7a29199de753" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL030_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1"/>
+        <dataset GUID="e1c81507-fe11-4926-a154-b4fbd6ea1c37" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbName="DEFSEM2021" GeoIdDbTableName="DEFSEM2021_SL040_001" IsCached="false" DbTableNamePrefix="DEFSEM2021_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1"/>
+      </datasets>
+      <iterations/>
+      <tables>
+        <table GUID="8380e549-26b3-4c57-b949-8fda2e812069" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="DEFSEM2021_001" displayName="DEFSEM2021_001" title="Defunciones semana 1" titleWrapped="Defunciones semana 1" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="DEFSEM2021_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="DEFSEM2020_001" DefaultColumnCaption="" samplingInfo="">
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns/>
+          </OutputFormat>
+          <variable GUID="f24e0ccc-d913-4258-b6a6-b30ddb5f78d8" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V1" label="Semana 1 - Total: Total" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="91a9677c-a9bc-4ea4-a1a4-e3a09d971197" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V2" label="Semana 1 - Total: Acumuladas en lo que va de a&#241;o" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="85b08de3-edc9-4425-8257-53e9902fe555" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V3" label="Semana 1 - Total: &#205;ndice base 2019" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="0f4012ac-ad3d-46ba-bdbe-e6fc4b83d411" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V4" label="Semana 1 - Total: &#205;ndice acumulado base 2019" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="30fc26d8-386a-43c2-89c5-f9c9d0740515" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V5" label="Semana 1 - Hombres: Total" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="c8590bea-27f4-4ec7-902b-b28c360c9554" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V6" label="Semana 1 - Hombres: Acumuladas en lo que va de a&#241;o" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="207dad23-8fce-49a1-b450-047af9d02b86" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V7" label="Semana 1 - Hombres: &#205;ndice base 2019" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="72a3040f-8b2a-46ea-9cc0-f6f4fdd4c08f" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V8" label="Semana 1 - Hombres: &#205;ndice acumulado base 2019" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="5820f88e-0c08-4e96-b5f0-15055af84d1e" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V9" label="Semana 1 - Mujeres: Total" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="57da022d-f1c5-416f-b5ae-2927a7d07b37" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V10" label="Semana 1 - Mujeres: Acumuladas en lo que va de a&#241;o" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="f8ae9c64-7777-454c-9b00-e43da0a03b3b" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V11" label="Semana 1 - Mujeres: &#205;ndice base 2019" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+          <variable GUID="cb7d5ca5-e9a6-4221-8641-f53f81efb32b" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="DEFSEM2021_001_DEFSEM_V12" label="Semana 1 - Mujeres: &#205;ndice acumulado base 2019" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="10" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="" PN="" PT=""/>
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>Defunciones semanales</string>
+  </Categories>
+</survey>
