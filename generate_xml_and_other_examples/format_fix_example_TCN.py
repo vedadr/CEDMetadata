@@ -185,9 +185,9 @@ def main(template_file, file_to_fix):
 
 if __name__ == '__main__':
 
-    projects = {'TCN2017.xml','TCN2016.xml', 'TCN2015.xml', 'TCN2014.xml', 'TCN2013.xml', 'TCN2012.xml', 'TCN2010.xml', 'TCN2009.xml', 'TCN2008.xml', 'TCN2007.xml', 'TCN2006.xml','TCN2005.xml','TCN2004.xml','TCN2003.xml'}
+    projects = {'TCN2011.xml','TCN2016.xml', 'TCN2015.xml', 'TCN2014.xml', 'TCN2013.xml', 'TCN2012.xml', 'TCN2010.xml', 'TCN2009.xml', 'TCN2008.xml', 'TCN2007.xml', 'TCN2006.xml','TCN2005.xml','TCN2004.xml','TCN2003.xml'}
 
-    project_template = 'TCN2011.xml'
+    project_template = 'TCN2017.xml'
 
     working_dir = r'C:\Users\jgarcia\Documents\CEDMetadata'
 
