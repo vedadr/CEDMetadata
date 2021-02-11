@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="bce2ef4b-7ce1-4ce3-9278-dc3ea60a7604" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELECH1920" DisplayName="Elecciones a las Cortes Generales a las Cortes Generales 1920" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1920" CountryName="" DocLinksAsString="" Categories="Elecciones 1920;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="bce2ef4b-7ce1-4ce3-9278-dc3ea60a7604" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="ELECH1920" DisplayName="Elecciones a las Cortes Generales 1920" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1920" CountryName="" DocLinksAsString="" Categories="Elecciones 1920;Elecciones históricas;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -118,7 +118,7 @@
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
           </OutputFormat>
-          <variable GUID="d72549f3-470c-4515-877d-4b92a79ee4a8" MTT="#ORG.ELECH1920_005.ELECH1920_005_ELECH_V27" MIBtext="" UVID="" PT="" PI="false" PN="CED_Partit1" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELECH1920_004_ELECH_V26" label="Partido más votado" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="PartidoMasVotadoHist" AggregationStr="None" BubbleSizeHint="1" />
+          <variable GUID="d72549f3-470c-4515-877d-4b92a79ee4a8" MTT="#ORG.ELECH1920_005.ELECH1920_005_ELECH_V28" MIBtext="" UVID="" PT="" PI="false" PN="CED_Partit1" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELECH1920_004_ELECH_V26" label="Partido más votado" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="PartidoMasVotadoHist" AggregationStr="None" BubbleSizeHint="1" />
           <variable GUID="fa50454a-3720-4258-b743-7ef3bc4fa95b" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="ELECH1920_004_ELECH_V27" label="Votos" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
         </table>
         <table GUID="8a2990de-2731-4687-a04c-d7303fb5e12d" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="ELECH1920_005" displayName="ELECH1920_005" title="Detalle Partido más votado" titleWrapped="Detalle Partido más votado" titleShort="" universe="none" Visible="true" VisibleInMaps="false" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Elecciones históricas;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="005" uniqueTableId="ELECH1920_005" source="" DefaultColumnCaption="" samplingInfo="">
@@ -152,5 +152,6 @@
   </SurveyDatasets>
   <Categories>
     <string>Elecciones 1920</string>
+    <string>Elecciones históricas</string>
   </Categories>
 </survey>
