@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="4fc9a2b2-8dc8-4b43-b954-194dfff9a66d" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="FERRO1850" DisplayName="KM de ferrocarril" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="1850" CountryName="" DocLinksAsString="" Categories="KM de ferrocarril;">
+  <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
+  <Description><![CDATA[]]></Description>
+  <Notes><![CDATA[]]></Notes>
+  <PrivateNotes><![CDATA[]]></PrivateNotes>
+  <Documentation Label="Documentation">
+    <DocumentLinks />
+  </Documentation>
+  <geoTypes>
+    <geoType MapDisplayScale="" GUID="0e1073c5-a7fa-4f1b-ad1b-bb335c14dde4" SearchPriorityCode="" Name="SL010" Label="TOTAL" QLabel="TOTAL" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="TOTAL" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="0" Sumlev="010" FipsCodeLength="2" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="TOTAL" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="a4b47f19-b8d4-42d7-b9df-3b871b85ff9e" SearchPriorityCode="" Name="SL030" Label="CCAA" QLabel="CCAA" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="CCAA" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="1" Sumlev="030" FipsCodeLength="4" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="CCAA" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="a7b92ac8-3e65-4f97-809d-12662a9d155a" SearchPriorityCode="" Name="SL040" Label="PROVINCIA" QLabel="PROVINCIA" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="PROVINCIA" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="2" Sumlev="040" FipsCodeLength="6" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="PROVINCIA" FipsCodePartialLength="2" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+    <geoType MapDisplayScale="" GUID="a6ae49a3-9168-4a21-ba45-8b3664322767" SearchPriorityCode="" Name="SL050" Label="MUNICIPIO" QLabel="MUNICIPIO" AvailabilityNote="" SourceFilesInfo="" RelevantGeoIDs="FIPS,NAME,QName,TOTAL,CCAA,PROVINCIA,MUNICIPIO" PluralName="MUNICIPIO" fullCoverage="true" majorGeo="true" GeoAbrev="" Indent="3" Sumlev="050" FipsCodeLength="11" FipsCodeFieldName="FIPS" FipsCodePartialFieldName="MUNICIPIO" FipsCodePartialLength="5" Notes="" DocSectionLinks="">
+      <Visible>true</Visible>
+    </geoType>
+  </geoTypes>
+  <GeoSurveyDataset GUID="50b2f21d-804b-4ff5-bb1e-7d6324fffb5f" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="Geo" source="" publisher="" name="Geography Summary File" DisplayName="Geography Summary File">
+    <DataBibliographicInfo />
+    <notes />
+    <PrivateNotes><![CDATA[]]></PrivateNotes>
+    <Description><![CDATA[]]></Description>
+    <datasets>
+      <dataset GUID="5e5b10f6-1732-4d55-9141-c127f3d6b64f" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL010_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="0c4f0b8a-b3c1-4cd9-a41c-7dd6067ed0ff" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL030_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="f96d848f-798f-4e69-b6bf-149688ece05e" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL040_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      <dataset GUID="cecaedb9-1cec-41bb-a783-7b111fe53ed8" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL050_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+    </datasets>
+    <iterations />
+    <tables>
+      <table GUID="e85a63c6-bf06-4d1a-afd0-5fd176c471b9" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="G001" displayName="G1." title="Geography Identifiers" titleWrapped="Geography Identifiers" titleShort="" universe="none" Visible="false" VisibleInMaps="true" TreeNodeCollapsed="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="G001" source="" DefaultColumnCaption="" samplingInfo="">
+        <mVisibleInMaps>true</mVisibleInMaps>
+        <OutputFormat TableTitle="" TableUniverse="">
+          <Columns />
+        </OutputFormat>
+        <variable GUID="08292717-5438-4cc6-8e76-13dd62554f56" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="QNAME" label="Qualifying Name" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="ef8521de-9f5c-4282-80ef-7dea7f95a331" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="NAME" label="Name of Area" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="1ec8e20e-6e58-442f-8d11-e14c07b978ba" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FIPS" label="FIPS" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="3c84084e-b812-4369-a667-1998beac99fc" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="TOTAL" label="TOTAL" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="98b00b95-6233-4210-8ece-6bd3c12153a8" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="CCAA" label="CCAA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="80c96b4f-c771-4302-af26-57e86b656597" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PROVINCIA" label="PROVINCIA" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+        <variable GUID="36283c49-2750-4b72-9493-2b229f9164c6" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="MUNICIPIO" label="MUNICIPIO" qLabel="" indent="0" dataType="2" dataTypeLength="0" formatting="0" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="0" DocLinksAsString="" FR="" AggregationStr="None" BubbleSizeHint="1" />
+      </table>
+    </tables>
+  </GeoSurveyDataset>
+  <SurveyDatasets>
+    <SurveyDataset GUID="a3864fbb-da8b-4430-b913-81d8b358d9ad" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="false" abbreviation="SE" source="" publisher="" name="CED Tables" DisplayName="CED Tables">
+      <DataBibliographicInfo />
+      <notes />
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="e0eaa26f-7633-4d63-8aee-395181bb5e4c" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL010_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="302df1d2-8e99-41e7-b963-cf48955ed45e" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL030_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="83d423e4-2649-458b-9e13-7f3924e675e1" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL040_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="eb47003c-fefc-414f-bb32-7ec67ddb51ee" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL050_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      </datasets>
+      <iterations />
+      <tables />
+    </SurveyDataset>
+    <SurveyDataset GUID="c6b299b2-ca36-4324-a6d9-6e581bd8b6a3" DocLinksAsString="" SurveyDatasetTreeNodeExpanded="true" TablesTreeNodeExpanded="true" IterationsTreeNodeExpanded="false" DatasetsTreeNodeExpanded="true" description="" ProductTags="" Visible="true" abbreviation="ORG" source="" publisher="" name="Original Tables" DisplayName="Original Tables">
+      <DataBibliographicInfo />
+      <notes />
+      <PrivateNotes><![CDATA[]]></PrivateNotes>
+      <Description><![CDATA[]]></Description>
+      <datasets>
+        <dataset GUID="61def691-c822-4c12-ab87-31cf9f9731e6" GeoTypeName="SL010" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL010_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL010_" DbPrimaryKey="SL010_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="4257ee03-f078-40f8-a2a4-f2d88136cbf6" GeoTypeName="SL030" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL030_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL030_" DbPrimaryKey="SL010_FIPS,SL030_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="d42a8df6-0b69-4b55-acaf-cb4524a8b60c" GeoTypeName="SL040" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL040_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL040_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+        <dataset GUID="5c35e3a0-9c90-4fa1-a976-cdf165001ef1" GeoTypeName="SL050" DbConnString="Server=prime; database=; uid=none;pwd=none;Connect Timeout=1;Pooling=True" DbConnString2="" DbName="FERRO1850" GeoIdDbTableName="FERRO1850_SL050_001" IsCached="false" DbTableNamePrefix="FERRO1850_SL050_" DbPrimaryKey="SL010_FIPS,SL030_FIPS,SL040_FIPS,SL050_FIPS" DbCopyCount="1" Notes="" UnavailableTables="" />
+      </datasets>
+      <iterations />
+      <tables>
+        <table GUID="2e4563ce-b200-46b5-8574-c2ad26eca76d" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="FERRO1850_001" displayName="FERRO1850_001" title="Km de ferrocarril" titleWrapped="Km de ferrocarril" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="FERRO1850_001" source="" DefaultColumnCaption="" samplingInfo="">
+          <mVisibleInMaps>true</mVisibleInMaps>
+          <OutputFormat TableTitle="" TableUniverse="">
+            <Columns />
+          </OutputFormat>
+          <variable GUID="1195d870-bb3a-4d9d-9977-a92c5f72ca2c" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="FERRO1850_001_FERRO_V1" label="KM" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="11" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
+        </table>
+      </tables>
+    </SurveyDataset>
+  </SurveyDatasets>
+  <Categories>
+    <string>KM de ferrocarril</string>
+  </Categories>
+</survey>
