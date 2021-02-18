@@ -84,7 +84,7 @@
       </datasets>
       <iterations />
       <tables>
-        <table GUID="79bffff5-f92a-4ab3-808c-0ead195fe142" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="RENTA2016_001" displayName="RENTA2016_001" title="Indicadores de renta media" titleWrapped="Indicadores de renta media" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="RENTA2016_001" source="" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="79bffff5-f92a-4ab3-808c-0ead195fe142" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="RENTA2016_001" displayName="RENTA2016_001" title="Indicadores de renta media" titleWrapped="Indicadores de renta media" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="Renta;" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="RENTA2016_001" source="" DefaultColumnCaption="" samplingInfo="">
           <mVisibleInMaps>true</mVisibleInMaps>
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns />
