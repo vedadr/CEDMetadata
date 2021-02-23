@@ -443,18 +443,6 @@
           <variable GUID="8dcc0657-b187-4a13-9a7a-c9ac4413eba9" UVID="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PC2020_011_PC_V284" label="Melilla" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" AggregationStr="Add" BubbleSizeHint="1" FR="CED_nacccaa" PN="cedevita" PT=""/>
         </table>
       </tables>
-	        <tables>
-        <table GUID="8acb894f-75f1-4913-b1f4-9e85fa73d471" VariablesAreExclusive="false" notes="" PrivateNotes="" TableMapInfo="" DollarYear="0" PercentBaseMin="1" name="PC2020_012" displayName="PC2020_012" title="Perspectives" titleWrapped="Perspectives" titleShort="" universe="none" Visible="true" VisibleInMaps="true" TreeNodeCollapsed="false" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" CategoryPriorityOrder="0" PaletteType="" PaletteInverse="false" PaletteName="" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="012" uniqueTableId="PC2020_012" source="" DefaultColumnCaption="" samplingInfo="">
-          <mVisibleInMaps>true</mVisibleInMaps>
-          <OutputFormat TableTitle="" TableUniverse="">
-            <Columns />
-          </OutputFormat>
-          <variable GUID="48d69411-6471-4ccc-8421-c755e9543ee5" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="cedevita" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PC2020_001_PC_V285" label="Edad media" qLabel="" indent="0" dataType="7" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="8" DocLinksAsString="" FR="CED_4060" AggregationStr="Rate|||100000" BubbleSizeHint="1" />
-          <variable GUID="bfae4855-5140-4835-8a41-5eb4e9c6a1a9" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PC2020_001_PC_V286" label="Total" qLabel="" indent="0" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
-          <variable GUID="3b291559-952f-418e-a840-ca9c176d7b35" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PC2020_001_PC_V287" label="Nacidos en España" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="" AggregationStr="Add" BubbleSizeHint="1" />
-          <variable GUID="e6fda3d1-f3db-4b8a-9ab4-61964a718a09" MTT="" MIBtext="" UVID="" PT="" PI="false" PN="" BracketSourceVarGUID="" BracketFromVal="0" BracketToVal="0" BracketType="None" FirstInBracketSet="false" notes="" PrivateNotes="" name="PC2020_001_PC_V288" label="Nacidos en el extranjero" qLabel="" indent="1" dataType="4" dataTypeLength="0" formatting="9" customFormatStr="" FormulaFunctionBodyCSharp="" suppType="0" SuppField="" suppFlags="" aggMethod="1" DocLinksAsString="" FR="CED_020" AggregationStr="Add" BubbleSizeHint="1" />
-        </table>
-      </tables>
     </SurveyDataset>
   </SurveyDatasets>
   <Categories>
