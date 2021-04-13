@@ -76,7 +76,7 @@
       </datasets>
       <iterations/>
       <tables>
-        <table GUID="fbb92fbb-e841-4f2a-a748-632113e4cfe9" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="FERRO1860_001" displayName="FERRO1860_001" title="Km de ferrocarril" titleWrapped="Km de ferrocarril" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="FERRO1860_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="FERRO1850_001" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="fbb92fbb-e841-4f2a-a748-632113e4cfe9" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="FERRO1860_001" displayName="FERRO1860_001" title="Km de ferrocarril" titleWrapped="Km de ferrocarril" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="001" uniqueTableId="FERRO1860_001" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Infraestructuras;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="FERRO1850_001" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
@@ -89,7 +89,7 @@
         </table>
       </tables>
       <tables>
-        <table GUID="a3e21645-48b6-4916-a122-90a652372c3b" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="FERRO1860_002" displayName="FERRO1860_002" title="Estaciones de ferrocarril" titleWrapped="Estaciones de ferrocarril" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="FERRO1860_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="FERRO1850_002" DefaultColumnCaption="" samplingInfo="">
+        <table GUID="a3e21645-48b6-4916-a122-90a652372c3b" VariablesAreExclusive="false" DollarYear="0" PercentBaseMin="1" name="FERRO1860_002" displayName="FERRO1860_002" title="Estaciones de ferrocarril" titleWrapped="Estaciones de ferrocarril" universe="none" Visible="true" TreeNodeCollapsed="false" CategoryPriorityOrder="0" ShowOnFirstPageOfCategoryListing="false" DbTableSuffix="002" uniqueTableId="FERRO1860_002" notes="" PrivateNotes="" TableMapInfo="" titleShort="" VisibleInMaps="true" DocSectionLinks="" DataCategories="Infraestructuras;" ProductTags="" FilterRuleName="" PaletteType="" PaletteInverse="false" PaletteName="" source="FERRO1850_002" DefaultColumnCaption="" samplingInfo="">
           <OutputFormat TableTitle="" TableUniverse="">
             <Columns/>
           </OutputFormat>
