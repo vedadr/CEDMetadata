@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="cf33deae-26e0-4e2d-8fb8-4df2c9e37bc3" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="IPA2018" DisplayName="Red de IPAcarril" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Red de IPAcarril;">
+<survey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GUID="cf33deae-26e0-4e2d-8fb8-4df2c9e37bc3" CssFile="" Visible="true" GeoTypeTreeNodeExpanded="true" GeoCorrespondenceTreeNodeExpanded="false" name="IPA2018" DisplayName="Indice de precios del alquiler 2018" ProductTags="" DescriptionShort="" TwoCharUniqueSurveyTag="" publisher="" year="2018" CountryName="" DocLinksAsString="" Categories="Indice de precios del alquiler;">
   <UseOptimizedDataRetrieval>false</UseOptimizedDataRetrieval>
   <Description><![CDATA[]]></Description>
   <Notes><![CDATA[]]></Notes>
@@ -133,6 +133,6 @@
     </SurveyDataset>
   </SurveyDatasets>
   <Categories>
-    <string>Red de IPAcarril</string>
+    <string>Indice de precios del alquiler</string>
   </Categories>
 </survey>
