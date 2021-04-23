@@ -21,13 +21,13 @@ def main():
     # set this to true if you want to fix characters in all projects
     fix_all_projects = False
 
-    path = Path(r'C:\Users\jgarcia\Documents\CEDMetadata')  # r'C:\Projects\CEDMetadata')
+    path = Path(r'C:\Users\aturu\CEDMetadata')  # r'C:\Projects\CEDMetadata')
 
     if fix_all_projects:
         project_list = [project.name for project in path.iterdir() if project.name.endswith('.xml')]
     else:
         # in case you don't want all projects to be checked, you can create a list of selected projects for fixing
-        project_list = {'ELECH1923.xml'}
+        project_list = {'ELECH1891.xml','ELECH1893.xml','ELECH1896.xml','ELECH1898.xml','ELECH1899.xml','ELECH1901.xml','ELECH1903.xml','ELECH1905.xml'}
 
     chars_to_replace = {'Ã³': 'ó', 'Ã¡': 'á', 'Ã±': 'ñ', 'Ãº': 'ú', 'Ã©': 'é'}
 
